@@ -32,8 +32,8 @@ public class WebTest {
         driver.get("http://automationpractice.com/index.php");
     }
 
-    @Test(priority = 0, description = "Sign In Test")
-    @Severity(SeverityLevel.BLOCKER)
+    @Test(priority = 1, description = "Sign In Test")
+    @Severity(SeverityLevel.CRITICAL)
     @Description("Test Description: Sign In Scenario")
     @Story("Successful Sign In Test")
     public void signInTest() {
