@@ -12,6 +12,8 @@ import org.testng.annotations.BeforeTest;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.apache.log4j.Logger;
+import org.apache.log4j.LogManager;
 
 
 import java.util.Date;
@@ -20,8 +22,10 @@ public class WebTest {
     WebDriver driver;
     WebDriverWait wait;
 
-    String existingUserEmail = "hf_challenge_123456@hf123456.com";
+    String existingUserEmail = "hf_challenge_123456@hf123456.co";
     String existingUserPassword = "12345678";
+
+    Logger log = Logger.getLogger(WebTest.class.getName());
 
     @BeforeTest
     public void setUp() {
@@ -30,6 +34,9 @@ public class WebTest {
         driver = new FirefoxDriver();
         wait = new WebDriverWait(driver, 10, 50);
         driver.get("http://automationpractice.com/index.php");
+
+        log.info("Opening website");
+
     }
 
     @Test(priority = 1, description = "Sign In Test")
@@ -84,11 +91,15 @@ public class WebTest {
         driver.findElement(By.id("SubmitLogin")).click();
         WebElement heading = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("h1")));
 
+        takeScreenshot();
         Assert.assertEquals("MY ACCOUNT", heading.getText());
         Assert.assertEquals(fullName, driver.findElement(By.className("account")).getText());
         Assert.assertTrue(driver.findElement(By.className("info-account")).getText().contains("Welcome to your account."));
         Assert.assertTrue(driver.findElement(By.className("logout")).isDisplayed());
         Assert.assertTrue(driver.getCurrentUrl().contains("controller=my-account"));
+
+
+
     }
 
     @Test
@@ -118,13 +129,17 @@ public class WebTest {
 
     }
 
-    @Attachment(value = "Page screenshot", type = "image/png")
-    public byte [] saveScrenShot(WebDriver webDriver) {
+    @Attachment(value = "Web Page Screenshot", type = "image/png")
+    public byte[] takeScreenshot() {
+        // Take a screenshot as byte array and return
         return ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
     }
+
+
     @AfterTest
     public void cleanUp() {
         driver.quit();
+        log.info("Browser closed");
     }
 
 

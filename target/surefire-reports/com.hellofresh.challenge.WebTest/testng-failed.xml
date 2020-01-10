@@ -6,6 +6,7 @@
       <class name="com.hellofresh.challenge.WebTest">
         <methods>
           <include name="logInTest"/>
+          <include name="checkoutTest"/>
           <include name="cleanUp"/>
           <include name="signInTest"/>
           <include name="setUp"/>
