@@ -1,0 +1,3 @@
+2020-01-12 22:08:26,177 [main] INFO  (BaseTest.java:26) - Driver is initialized
+2020-01-12 22:08:26,228 [main] INFO  (Test_3_Checkout.java:28) - Checkout test started
+2020-01-12 22:08:32,804 [main] INFO  (BaseTest.java:32) - Browser closed

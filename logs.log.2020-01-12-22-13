@@ -1,0 +1,12 @@
+2020-01-12 22:13:13,204 [main] INFO  (Test_1_SignIn.java:41) - Setup Test Level Data
+2020-01-12 22:13:13,598 [main] INFO  (Test_2_Login.java:23) - Setup Test Level Data
+2020-01-12 22:13:13,626 [main] INFO  (Test_3_Checkout.java:23) - Setup Test Level Data
+2020-01-12 22:13:20,846 [main] INFO  (WebTest.java:33) - Opening website
+2020-01-12 22:13:23,816 [main] INFO  (BaseTest.java:26) - Driver is initialized
+2020-01-12 22:13:23,859 [main] INFO  (Test_1_SignIn.java:53) - User email: hf_challenge_1578856393166@hf393166.com
+2020-01-12 22:13:35,160 [main] INFO  (BaseTest.java:32) - Browser closed
+2020-01-12 22:13:38,016 [main] INFO  (BaseTest.java:26) - Driver is initialized
+2020-01-12 22:13:38,019 [main] INFO  (Test_2_Login.java:33) - Invalid Login Test with Invalid Credentials
+2020-01-12 22:13:44,331 [main] INFO  (Test_2_Login.java:48) - Invalid Login Test with Empty Credentials
+2020-01-12 22:13:50,812 [main] INFO  (BaseTest.java:26) - Driver is initialized
+2020-01-12 22:13:50,815 [main] INFO  (Test_3_Checkout.java:35) - Checkout test started

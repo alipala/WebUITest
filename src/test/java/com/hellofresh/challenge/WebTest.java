@@ -1,11 +1,9 @@
 package com.hellofresh.challenge;
 
 import io.qameta.allure.*;
-import junit.framework.TestListener;
 import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.*;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -13,9 +11,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.apache.log4j.Logger;
-import org.apache.log4j.LogManager;
-
-
 import java.util.Date;
 
 public class WebTest {
@@ -39,7 +34,7 @@ public class WebTest {
 
     }
 
-    @Test(priority = 1, description = "Sign In Test")
+   // @Test(priority = 1, description = "Sign In Test")
     @Severity(SeverityLevel.CRITICAL)
     @Description("Test Description: Sign In Scenario")
     @Story("Successful Sign In Test")
@@ -82,7 +77,7 @@ public class WebTest {
         Assert.assertTrue(driver.getCurrentUrl().contains("controller=my-account"));
     }
 
-    @Test
+    //@Test
     public void logInTest() {
         String fullName = "Joe Black";
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("login"))).click();
@@ -91,7 +86,6 @@ public class WebTest {
         driver.findElement(By.id("SubmitLogin")).click();
         WebElement heading = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("h1")));
 
-        takeScreenshot();
         Assert.assertEquals("MY ACCOUNT", heading.getText());
         Assert.assertEquals(fullName, driver.findElement(By.className("account")).getText());
         Assert.assertTrue(driver.findElement(By.className("info-account")).getText().contains("Welcome to your account."));
@@ -102,12 +96,13 @@ public class WebTest {
 
     }
 
-    @Test
+   // @Test
     public void checkoutTest() {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("login"))).click();
         driver.findElement(By.id("email")).sendKeys(existingUserEmail);
         driver.findElement(By.id("passwd")).sendKeys(existingUserPassword);
         driver.findElement(By.id("SubmitLogin")).click();
+
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.linkText("Women"))).click();
         driver.findElement(By.xpath("//a[@title='Faded Short Sleeve T-shirts']/ancestor::li")).click();
         //driver.findElement(By.xpath("//a[@title='Faded Short Sleeve T-shirts']/ancestor::li")).click();
@@ -134,7 +129,6 @@ public class WebTest {
         // Take a screenshot as byte array and return
         return ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
     }
-
 
     @AfterTest
     public void cleanUp() {
