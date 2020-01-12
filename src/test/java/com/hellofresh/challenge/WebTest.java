@@ -124,11 +124,6 @@ public class WebTest {
 
     }
 
-    @Attachment(value = "Web Page Screenshot", type = "image/png")
-    public byte[] takeScreenshot() {
-        // Take a screenshot as byte array and return
-        return ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
-    }
 
     @AfterTest
     public void cleanUp() {

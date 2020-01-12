@@ -1,16 +1,14 @@
 package com.hellofresh.challenge.tests;
 
 import com.hellofresh.challenge.pages.HomePage;
-import com.hellofresh.challenge.pages.LoginPage;
 import com.hellofresh.challenge.utilities.ExcelUtil;
+import com.hellofresh.challenge.utilities.LogUtil;
 import io.qameta.allure.Description;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
-import javafx.stage.FileChooser;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-import sun.rmi.runtime.Log;
 
 public class Test_2_Login extends BaseTest {
 
@@ -22,7 +20,8 @@ public class Test_2_Login extends BaseTest {
 
     @BeforeTest
     public void setUpTestData() {
-        log.info("Setup Test Level Data");
+
+        LogUtil.info("Setup Test Level Data");
         ExcelUtil.setExcelFileSheet("LoginData");
     }
 
@@ -32,7 +31,8 @@ public class Test_2_Login extends BaseTest {
     @Story("Login Test")
     public void invalidLoginTest_InvalidUserNameInvalidPassword() throws Exception{
 
-        log.info("Invalid Login Test with Invalid Credentials");
+        LogUtil.info("Invalid Login Test with Invalid Credentials");
+
         HomePage homePage = new HomePage(driver);
         homePage.gotoHomePage()
                 .goToLoginPage()
@@ -47,7 +47,8 @@ public class Test_2_Login extends BaseTest {
     @Story("Login Test")
     public void invalidLoginTest_EmptyUserNameEmptyPassword() throws Exception {
 
-        log.info("Invalid Login Test with Empty Credentials");
+        LogUtil.info("Invalid Login Test with Empty Credentials");
+
         HomePage homePage = new HomePage(driver);
         homePage.gotoHomePage()
                 .goToLoginPage()
@@ -61,7 +62,8 @@ public class Test_2_Login extends BaseTest {
     @Story("Login Test")
     public void validLoginTest_ValidUserNameValidPassword() throws Exception {
 
-        log.info("Valid Login Test");
+        LogUtil.info("Valid Login Test");
+
         HomePage homePage = new HomePage(driver);
         homePage.gotoHomePage()
                 .goToLoginPage()
@@ -69,6 +71,7 @@ public class Test_2_Login extends BaseTest {
                 .verifyLoginUserName(expectedFullName)
                 .verifyInfoAccount(infoAccountMessage)
                 .verifyLogout();
+
 
     }
 }

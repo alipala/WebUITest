@@ -1,6 +1,0 @@
-2020-01-12 23:54:06,814 [main] INFO  (BaseTest.java:26) - Driver is initialized
-2020-01-12 23:54:06,822 [main] INFO  (Test_3_Checkout.java:36) - Checkout test started
-2020-01-12 23:54:28,104 [main] INFO  (BaseTest.java:32) - Browser closed
-2020-01-12 23:54:28,107 [main] INFO  (Test_2_Login.java:50) - Invalid Login Test with Empty Credentials
-2020-01-12 23:54:31,594 [main] INFO  (Test_2_Login.java:64) - Valid Login Test
-2020-01-12 23:54:35,803 [main] INFO  (WebTest.java:136) - Browser closed

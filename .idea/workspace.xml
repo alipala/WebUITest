@@ -2,63 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cf83f74-ca84-4ad6-a944-f5d2ac388d96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/allure-results/118f7ffe-d86d-4216-badf-5121282b4a40-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/2b241e5a-6951-4729-8d6c-c7ba26016d9b-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/b2ac0b26-11b2-4914-83be-bff36ef611b7-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/df35324a-fd56-4de5-8688-796cd3e18957-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs.log.2020-01-12-23-01" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs.log.2020-01-12-23-02" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs.log.2020-01-12-23-47" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs.log.2020-01-12-23-52" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs.log.2020-01-12-23-53" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs.log.2020-01-12-23-54" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs.log.2020-01-12-23-55" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/logs.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/136d0689-b25f-43c7-baf6-ef76a7f488ab-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/5db00ec3-9d09-410d-bd14-094df263cb92-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/632539f1-1f14-434d-ac77-1bc337cc4ee8-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/72283172-a98c-412e-9220-d62ed2c91463-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/utilities/LogUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/0be2c4e0-67e2-4148-8d02-618b6be18ef8-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/11cf02ce-3a1b-447e-aa94-70679d734550-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/1400515a-9536-4788-9cde-a148a453da97-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/19b81453-0e97-4cb9-9c77-212b180c6cbc-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/1f454767-917b-446d-8aa7-5938d59283bf-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/2264cb9b-fdda-4864-99a2-97c7b6b9feac-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/24ed69f6-1109-40fa-ac05-691e2910a394-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/2c7ba12a-40af-4e3a-8441-6990e22b979e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/315b9a88-daa0-4453-96b8-fc9c283f3211-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/395eeda9-a717-4836-97ab-f67435fc9449-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/50bbd3ec-0658-4584-9e2c-9dff5bebd613-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/5cc165f1-2f32-4f7d-8406-b4b3d71e6328-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/6358e07b-8cae-455f-91a9-b6c419979798-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/6359002e-c6ab-42c5-8c9c-f1d0a2b74308-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/6ba9f003-e146-4714-9541-4cbf0df8dc99-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/6d526f4c-c636-4f3b-904a-474f96a47279-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/75202e40-1a9a-4588-9887-8d0011dd1d78-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/7f3579ed-fde0-4b69-b003-cd9957251dec-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/88f7f99a-c19b-4a71-bce8-f927312b8338-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/8933695a-6b50-4f25-952e-8b50d773a0d3-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/8eeed638-2156-479b-84e3-189d57ff9843-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/af0956fc-c327-4156-ac39-72716e5984a6-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/b40cfe4e-8be2-4a62-8354-0cecb2c9d405-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/bf1ccd0d-9f4e-4e30-b00c-726767af66ae-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/c3798499-4509-4cfa-9cd2-9ce8dfcb6127-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/d23d111f-ddb9-4098-9f82-fc68c3f9d0fd-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/d6421d89-f882-49af-8a15-2219bbf3ce11-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/d935a028-4200-4654-83a8-86079e8b01da-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/e208eaf9-e7b0-4716-9ca0-df32b2611761-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/e92adea8-0bc3-4df9-bf20-484196398e68-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/f0804ec7-fc18-4648-9db2-0426c9d4f4eb-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/f8f43886-0062-432d-b498-5d95c1c8534d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/118f7ffe-d86d-4216-badf-5121282b4a40-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2b241e5a-6951-4729-8d6c-c7ba26016d9b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/b2ac0b26-11b2-4914-83be-bff36ef611b7-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/df35324a-fd56-4de5-8688-796cd3e18957-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loging.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/logs.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs.log.2020-01-12-21-55" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs.log.2020-01-12-22-08" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs.log.2020-01-12-22-10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs.log.2020-01-12-22-12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs.log.2020-01-12-22-13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs.log.2020-01-12-23-01" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs.log.2020-01-12-23-02" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs.log.2020-01-12-23-47" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs.log.2020-01-12-23-52" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs.log.2020-01-12-23-53" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs.log.2020-01-12-23-54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs.log.2020-01-12-23-55" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/WebTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/WebTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/pages/CheckoutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/pages/CheckoutPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/pages/SignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/pages/SignInPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/tests/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/tests/Test_1_SignIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/tests/Test_1_SignIn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/tests/Test_2_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/tests/Test_2_Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/tests/Test_3_Checkout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/tests/Test_3_Checkout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/utilities/ExcelUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/utilities/ExcelUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/testdata.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testdata.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hellofresh/challenge/WebTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hellofresh/challenge/WebTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +76,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
@@ -111,7 +97,7 @@
       <recent name="C:\Users\z003d7tu.AD001\Desktop\qa-test-hf_1.3\qa-test-hf\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Test_1_SignIn">
+  <component name="RunManager" selected="TestNG.Test_3_Checkout">
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -208,6 +194,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test_3_Checkout" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="web-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hellofresh.challenge.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hellofresh.challenge.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.hellofresh.challenge.tests.Test_3_Checkout" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WebTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="web-test" />
       <extension name="coverage">
@@ -225,39 +228,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebTest.logInTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="web-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hellofresh.challenge.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hellofresh.challenge" />
-      <option name="MAIN_CLASS_NAME" value="com.hellofresh.challenge.WebTest" />
-      <option name="METHOD_NAME" value="logInTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="TestNG.WebTest" />
-      <item itemvalue="TestNG.WebTest.logInTest" />
       <item itemvalue="TestNG.Test_1_SignIn.validSignInTest_ValidValues" />
       <item itemvalue="TestNG.Test_2_Login" />
       <item itemvalue="TestNG.Test_2_Login.validLoginTest_ValidUserNameValidPassword" />
       <item itemvalue="TestNG.Test_1_SignIn" />
+      <item itemvalue="TestNG.Test_3_Checkout" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Test_3_Checkout" />
         <item itemvalue="TestNG.Test_1_SignIn" />
         <item itemvalue="TestNG.Test_2_Login.validLoginTest_ValidUserNameValidPassword" />
         <item itemvalue="TestNG.Test_2_Login" />
         <item itemvalue="TestNG.WebTest" />
-        <item itemvalue="TestNG.WebTest.logInTest" />
       </list>
     </recent_temporary>
   </component>
@@ -305,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578856814877</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="All assertions completed as Webtest includes">
+      <created>1578862891766</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578862891766</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -324,7 +316,8 @@
     <MESSAGE value="priority changed" />
     <MESSAGE value="log4j added" />
     <MESSAGE value="Priority is added&#10;Tests run sequentially&#10;Data Driven Testing is implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="Priority is added&#10;Tests run sequentially&#10;Data Driven Testing is implemented" />
+    <MESSAGE value="All assertions completed as Webtest includes" />
+    <option name="LAST_COMMIT_MESSAGE" value="All assertions completed as Webtest includes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="487" y="121" key="#LoginTest.validLoginTest_ValidUserNameValidPassword" timestamp="1578761009397">
@@ -349,30 +342,38 @@
     </state>
     <state x="514" y="270" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.40.1536.824@0.40.1536.824" timestamp="1578860246808" />
     <state x="695" y="448" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.40.1920.1040/0.40.1920.1040@0.40.1920.1040" timestamp="1578655208622" />
-    <state x="402" y="52" key="CommitChangelistDialog2" timestamp="1578856813086">
+    <state x="402" y="40" key="CommitChangelistDialog2" timestamp="1578862890480">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state x="402" y="52" key="CommitChangelistDialog2/0.40.1536.824@0.40.1536.824" timestamp="1578856813086" />
+    <state x="402" y="40" key="CommitChangelistDialog2/0.40.1536.824@0.40.1536.824" timestamp="1578862890480" />
     <state x="740" y="338" key="FileChooserDialogImpl" timestamp="1578653754169">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="740" y="338" key="FileChooserDialogImpl/1920.40.1920.1040/0.40.1920.1040@0.40.1920.1040" timestamp="1578653754169" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1578667850993">
-      <screen x="0" y="40" width="1920" height="1040" />
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom" timestamp="1578868195357">
+      <screen x="0" y="40" width="1536" height="824" />
     </state>
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.40.1536.824@0.40.1536.824" timestamp="1578868195357" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/1920.40.1920.1040/0.40.1920.1040@0.40.1920.1040" timestamp="1578667850993" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1578667850993">
-      <screen x="0" y="40" width="1920" height="1040" />
+    <state width="1493" height="203" key="GridCell.Tab.0.center" timestamp="1578868195356">
+      <screen x="0" y="40" width="1536" height="824" />
     </state>
+    <state width="1493" height="203" key="GridCell.Tab.0.center/0.40.1536.824@0.40.1536.824" timestamp="1578868195356" />
     <state width="1877" height="282" key="GridCell.Tab.0.center/1920.40.1920.1040/0.40.1920.1040@0.40.1920.1040" timestamp="1578667850993" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1578667850992">
-      <screen x="0" y="40" width="1920" height="1040" />
+    <state width="1493" height="203" key="GridCell.Tab.0.left" timestamp="1578868195356">
+      <screen x="0" y="40" width="1536" height="824" />
     </state>
+    <state width="1493" height="203" key="GridCell.Tab.0.left/0.40.1536.824@0.40.1536.824" timestamp="1578868195356" />
     <state width="1877" height="282" key="GridCell.Tab.0.left/1920.40.1920.1040/0.40.1920.1040@0.40.1920.1040" timestamp="1578667850992" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1578667850993">
-      <screen x="0" y="40" width="1920" height="1040" />
+    <state width="1493" height="203" key="GridCell.Tab.0.right" timestamp="1578868195357">
+      <screen x="0" y="40" width="1536" height="824" />
     </state>
+    <state width="1493" height="203" key="GridCell.Tab.0.right/0.40.1536.824@0.40.1536.824" timestamp="1578868195357" />
     <state width="1877" height="282" key="GridCell.Tab.0.right/1920.40.1920.1040/0.40.1920.1040@0.40.1920.1040" timestamp="1578667850993" />
+    <state x="496" y="167" key="RollbackChangesDialog" timestamp="1578864782145">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state x="496" y="167" key="RollbackChangesDialog/0.40.1536.824@0.40.1536.824" timestamp="1578864782145" />
     <state x="370" y="40" key="SettingsEditor" timestamp="1578760735350">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
@@ -396,20 +397,9 @@
     </state>
     <state x="493" y="214" width="538" height="537" key="run.anything.popup/0.40.1536.824@0.40.1536.824" timestamp="1578777212528" />
     <state x="616" y="260" width="672" height="677" key="run.anything.popup/1920.40.1920.1040/0.40.1920.1040@0.40.1920.1040" timestamp="1578656234322" />
-    <state x="431" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1578860245109">
+    <state x="431" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1578863697965">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state x="431" y="185" width="672" height="678" key="search.everywhere.popup/0.40.1536.824@0.40.1536.824" timestamp="1578860245109" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/tests/Test_3_Checkout.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="431" y="185" width="672" height="678" key="search.everywhere.popup/0.40.1536.824@0.40.1536.824" timestamp="1578863697965" />
   </component>
 </project>

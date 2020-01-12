@@ -1,4 +1,0 @@
-2020-01-12 22:12:00,254 [main] INFO  (Test_3_Checkout.java:23) - Setup Test Level Data
-2020-01-12 22:12:04,906 [main] INFO  (BaseTest.java:26) - Driver is initialized
-2020-01-12 22:12:04,953 [main] INFO  (Test_3_Checkout.java:35) - Checkout test started
-2020-01-12 22:12:27,106 [main] INFO  (BaseTest.java:32) - Browser closed

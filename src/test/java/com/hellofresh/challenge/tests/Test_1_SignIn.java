@@ -4,6 +4,7 @@ import com.hellofresh.challenge.WebTest;
 import com.hellofresh.challenge.pages.HomePage;
 import com.hellofresh.challenge.pages.SignInPage;
 import com.hellofresh.challenge.utilities.ExcelUtil;
+import com.hellofresh.challenge.utilities.LogUtil;
 import io.qameta.allure.Description;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
@@ -40,7 +41,7 @@ public class Test_1_SignIn extends BaseTest{
 
     @BeforeTest
     public void setUpTestData() {
-        log.info("Setup Test Level Data");
+        LogUtil.info("Setup Test Level Data");
         ExcelUtil.setExcelFileSheet("LoginData");
     }
 
@@ -52,7 +53,7 @@ public class Test_1_SignIn extends BaseTest{
         HomePage homePage = new HomePage(driver);
         SignInPage signInPage = new SignInPage(driver);
 
-        log.info("User email: " + userEmail);
+        LogUtil.info("User email: " + userEmail);
 
         homePage.gotoHomePage()
                 .goToLoginPage();

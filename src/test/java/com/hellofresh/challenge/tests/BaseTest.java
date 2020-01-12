@@ -1,7 +1,6 @@
 package com.hellofresh.challenge.tests;
 
-import com.hellofresh.challenge.WebTest;
-import org.apache.log4j.Logger;
+import com.hellofresh.challenge.utilities.LogUtil;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -14,7 +13,6 @@ public class BaseTest {
 
     // Test data excel file
     public static final String testDataExcelFileName = "testdata.xlsx";
-    Logger log = Logger.getLogger(WebTest.class.getName());
 
     @BeforeClass
     public void setUp() {
@@ -23,12 +21,12 @@ public class BaseTest {
         wait = new WebDriverWait(driver, 10, 50);
         //Maximize Window
         driver.manage().window().maximize();
-        log.info("Driver is initialized");
+        LogUtil.startLog("Driver is initialized");
     }
 
     @AfterClass
     public void cleanUp() {
         driver.quit();
-        log.info("Browser closed");
+        LogUtil.endLog("Test is finished");
     }
 }

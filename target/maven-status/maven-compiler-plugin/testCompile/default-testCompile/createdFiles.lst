@@ -5,6 +5,7 @@ com\hellofresh\challenge\tests\BaseTest.class
 com\hellofresh\challenge\utilities\ExcelUtil.class
 com\hellofresh\challenge\tests\Test_1_SignIn.class
 com\hellofresh\challenge\pages\BasePage.class
+com\hellofresh\challenge\utilities\LogUtil.class
 com\hellofresh\challenge\tests\Test_3_Checkout.class
 com\hellofresh\challenge\pages\LoginPage.class
 com\hellofresh\challenge\tests\Test_2_Login.class

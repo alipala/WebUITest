@@ -65,5 +65,4 @@ public class BasePage {
         Assert.assertTrue(driver.findElement(elementBy).getText().contains(expectedText));
     }
 
-
 }

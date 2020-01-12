@@ -1,27 +1,25 @@
 package com.hellofresh.challenge.tests;
 
-import com.hellofresh.challenge.WebTest;
 import com.hellofresh.challenge.pages.CheckoutPage;
 import com.hellofresh.challenge.pages.HomePage;
-import com.hellofresh.challenge.pages.LoginPage;
 import com.hellofresh.challenge.utilities.ExcelUtil;
+import com.hellofresh.challenge.utilities.LogUtil;
 import io.qameta.allure.Description;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
-import org.apache.log4j.Logger;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 
 public class Test_3_Checkout extends BaseTest{
-    Logger log = Logger.getLogger(WebTest.class.getName());
+
     String heading = "ORDER CONFIRMATION";
     String orderCompleteMessage = "Your order on My Store is complete.";
 
     @BeforeTest
     public void setUpTestData() {
-        log.info("Setup Test Level Data");
+        LogUtil.info("Setup Test Level Data");
         ExcelUtil.setExcelFileSheet("LoginData");
     }
 
@@ -31,9 +29,9 @@ public class Test_3_Checkout extends BaseTest{
     @Story("Checkout Test")
     public void validCheckoutTest() throws Exception {
         HomePage homePage = new HomePage(driver);
-        LoginPage loginPage = new LoginPage(driver);
         CheckoutPage checkoutPage = new CheckoutPage(driver);
-        log.info("Checkout test started");
+
+        LogUtil.info("Checkout test started");
 
         homePage.gotoHomePage()
                 .goToLoginPage()
@@ -44,5 +42,9 @@ public class Test_3_Checkout extends BaseTest{
                 .verifyShipping()
                 .verifyPayment()
                 .verifyOrderComplete(orderCompleteMessage);
+
+
     }
+
+
 }
