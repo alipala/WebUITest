@@ -18,6 +18,8 @@ public class Test_2_Login extends BaseTest {
     String invalidUsernameMessage = "Authentication failed.";
     String emptyUsernameMessage = "An email address required.";
 
+    String infoAccountMessage = "Welcome to your account.";
+
     @BeforeTest
     public void setUpTestData() {
         log.info("Setup Test Level Data");
@@ -64,7 +66,9 @@ public class Test_2_Login extends BaseTest {
         homePage.gotoHomePage()
                 .goToLoginPage()
                 .login(ExcelUtil.getRowData(1))
-                .verifyLoginUserName(expectedFullName);
+                .verifyLoginUserName(expectedFullName)
+                .verifyInfoAccount(infoAccountMessage)
+                .verifyLogout();
 
     }
 }

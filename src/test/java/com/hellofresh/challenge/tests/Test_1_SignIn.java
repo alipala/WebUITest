@@ -36,6 +36,8 @@ public class Test_1_SignIn extends BaseTest{
     String alias = "hf";
     String heading = "MY ACCOUNT";
 
+    String infoAccountMessage = "Welcome to your account.";
+
     @BeforeTest
     public void setUpTestData() {
         log.info("Setup Test Level Data");
@@ -57,6 +59,9 @@ public class Test_1_SignIn extends BaseTest{
 
         signInPage.addUsertoTestData(userEmail,1,1)
                 .signIn(userEmail, name, surname, password, days, months, years, company, address1, address2, city, id_state, postcode, other, phone, phone_mobile, alias)
-                .verifySignInDetails(heading);
+                .verifySignInDetails(heading)
+                .verifyFirstNameLastName(name, surname)
+                .verifyInfoAccount(infoAccountMessage)
+                .verifyLogout();
     }
 }

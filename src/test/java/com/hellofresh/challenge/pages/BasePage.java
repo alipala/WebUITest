@@ -52,6 +52,18 @@ public class BasePage {
         Assert.assertEquals(readText(elementBy), expectedText);
     }
 
-    // TODO: Assert True
+
+    // Assert True
+    public void assertTrueIsDisplayed(By elementBy) {
+        waitVisibility(elementBy);
+        Assert.assertTrue(driver.findElement(elementBy).isDisplayed());
+    }
+
+    // Assert True
+    public void assertTrueContains(By elementBy, String expectedText) {
+        waitVisibility(elementBy);
+        Assert.assertTrue(driver.findElement(elementBy).getText().contains(expectedText));
+    }
+
 
 }

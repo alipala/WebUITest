@@ -4,6 +4,7 @@ import io.qameta.allure.Step;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import sun.rmi.runtime.Log;
 
 public class LoginPage extends BasePage {
     public LoginPage(WebDriver driver) {
@@ -18,6 +19,12 @@ public class LoginPage extends BasePage {
     By errorMessageInvalidUsernameBy = By.xpath("//li[contains(text(),'Authentication failed.')]");
     By errorMessageEmptyUsernameBy = By.xpath("//li[contains(text(),'An email address required.')]");
 
+    //*********Assertions Web Elements*********
+    By accountBy = By.className("account");
+    By infoAccountBy = By.className("info-account");
+    By logoutBy = By.className("logout");
+
+
     /**
      * @param row
      * @return
@@ -31,33 +38,50 @@ public class LoginPage extends BasePage {
     }
 
     /**
+     * Verify Valid Username Condition
      * @param expectedText
      * @return
      */
-    //Verify Valid Username Condition
     public LoginPage verifyLoginUserName (String expectedText) {
         assertEquals(UsernameBy, expectedText);
         return this;
     }
 
     /**
+     * Verify Invalid Username Condition
      * @param expectedText
      * @return
      */
-    //Verify Invalid Username Condition
     public LoginPage verifyInvalidUserMessage (String expectedText) {
         assertEquals(errorMessageInvalidUsernameBy, expectedText);
         return this;
     }
 
     /**
+     * Verify Empty Username Condition
      * @param expectedText
      * @return
      */
-    //Verify Empty Username Condition
     public LoginPage verifyEmptyUserMessage (String expectedText) {
         assertEquals(errorMessageEmptyUsernameBy, expectedText);
         return this;
     }
 
+
+    /**
+     * @param expectedText
+     * @return
+     */
+    public LoginPage verifyInfoAccount(String expectedText) {
+        assertTrueContains(infoAccountBy, expectedText);
+        return this;
+    }
+
+    /**
+     * @return
+     */
+    public LoginPage verifyLogout() {
+        assertTrueIsDisplayed(logoutBy);
+        return this;
+    }
 }

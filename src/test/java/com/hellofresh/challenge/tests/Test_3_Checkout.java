@@ -17,6 +17,7 @@ import org.testng.annotations.Test;
 public class Test_3_Checkout extends BaseTest{
     Logger log = Logger.getLogger(WebTest.class.getName());
     String heading = "ORDER CONFIRMATION";
+    String orderCompleteMessage = "Your order on My Store is complete.";
 
     @BeforeTest
     public void setUpTestData() {
@@ -39,7 +40,9 @@ public class Test_3_Checkout extends BaseTest{
                 .login(ExcelUtil.getRowData(1));
 
         checkoutPage.checkout()
-                .verifyCheckoutDetails(heading);
-
+                .verifyCheckoutHeading(heading)
+                .verifyShipping()
+                .verifyPayment()
+                .verifyOrderComplete(orderCompleteMessage);
     }
 }

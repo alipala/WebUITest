@@ -21,6 +21,11 @@ public class CheckoutPage extends BasePage{
     By cartNavigationButtonBy = By.xpath("//*[@id='cart_navigation']/button");
     By headingBy = By.cssSelector("h1");
 
+    //*********Assertions Web Elements*********
+    By shippingBy = By.xpath("//li[@class='step_done step_done_last four']"); //Shipping displayed
+    By paymentBy = By.xpath("//li[@id='step_end' and @class='step_current last']"); //Payment displayed
+    By orderCompleteBy = By.xpath("//*[@class='cheque-indent']/strong"); //Order Complete contains
+
     /**
      * @return
      */
@@ -43,8 +48,23 @@ public class CheckoutPage extends BasePage{
      * @param expectedText
      * @return
      */
-    public CheckoutPage verifyCheckoutDetails(String expectedText) {
+    public CheckoutPage verifyCheckoutHeading(String expectedText) {
         assertEquals(headingBy, expectedText);
+        return this;
+    }
+
+    public CheckoutPage verifyShipping() {
+        assertTrueIsDisplayed(shippingBy);
+        return this;
+    }
+
+    public CheckoutPage verifyPayment() {
+        assertTrueIsDisplayed(paymentBy);
+        return this;
+    }
+
+    public CheckoutPage verifyOrderComplete(String expectedText) {
+        assertTrueContains(orderCompleteBy, expectedText);
         return this;
     }
 }

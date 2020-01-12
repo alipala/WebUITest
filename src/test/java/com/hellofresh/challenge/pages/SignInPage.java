@@ -3,6 +3,7 @@ package com.hellofresh.challenge.pages;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 
 import static com.hellofresh.challenge.utilities.ExcelUtil.setCellData;
 
@@ -32,7 +33,12 @@ public class SignInPage extends BasePage {
     By phoneMobileBy = By.id("phone_mobile");
     By aliasBy = By.id("alias");
     By submitAccountBy = By.id("submitAccount");
+
+    //*********Assertions Web Elements*********
     By myAccountBy = By.cssSelector("h1");
+    By accountBy = By.className("account");
+    By infoAccountBy = By.className("info-account");
+    By logoutBy = By.className("logout");
 
 
     /**
@@ -98,4 +104,30 @@ public class SignInPage extends BasePage {
         return this;
     }
 
+    /**
+     * @param expectedName
+     * @param expectedSurname
+     * @return
+     */
+    public SignInPage verifyFirstNameLastName(String expectedName, String expectedSurname) {
+        assertEquals(accountBy, expectedName + " " + expectedSurname);
+        return this;
+    }
+
+    /**
+     * @param expectedText
+     * @return
+     */
+    public SignInPage verifyInfoAccount(String expectedText) {
+        assertTrueContains(infoAccountBy, expectedText);
+        return this;
+    }
+
+    /**
+     * @return
+     */
+    public SignInPage verifyLogout() {
+        assertTrueIsDisplayed(logoutBy);
+        return this;
+    }
 }
