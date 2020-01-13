@@ -1,9 +1,12 @@
 package com.hellofresh.challenge.tests;
 
 import com.hellofresh.challenge.WebTest;
+import com.hellofresh.challenge.constants.Constants;
+import com.hellofresh.challenge.listeners.TestAllureListener;
 import com.hellofresh.challenge.pages.HomePage;
 import com.hellofresh.challenge.pages.SignInPage;
 import com.hellofresh.challenge.utilities.ExcelUtil;
+import com.hellofresh.challenge.utilities.FakeUserUtil;
 import com.hellofresh.challenge.utilities.LogUtil;
 import io.qameta.allure.Description;
 import io.qameta.allure.Severity;
@@ -11,10 +14,12 @@ import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
 import org.apache.log4j.Logger;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import java.util.Date;
 
+@Listeners({TestAllureListener.class})
 public class Test_1_SignIn extends BaseTest{
     Logger log = Logger.getLogger(WebTest.class.getName());
     String timestamp = String.valueOf(new Date().getTime());
@@ -37,8 +42,6 @@ public class Test_1_SignIn extends BaseTest{
     String alias = "hf";
     String heading = "MY ACCOUNT";
 
-    String infoAccountMessage = "Welcome to your account.";
-
     @BeforeTest
     public void setUpTestData() {
         LogUtil.info("Setup Test Level Data");
@@ -55,6 +58,12 @@ public class Test_1_SignIn extends BaseTest{
 
         LogUtil.info("User email: " + userEmail);
 
+        FakeUserUtil user = new FakeUserUtil();
+
+        LogUtil.info("******Fake users:**********");
+
+        user.createUser();
+
         homePage.gotoHomePage()
                 .goToLoginPage();
 
@@ -62,7 +71,7 @@ public class Test_1_SignIn extends BaseTest{
                 .signIn(userEmail, name, surname, password, days, months, years, company, address1, address2, city, id_state, postcode, other, phone, phone_mobile, alias)
                 .verifySignInDetails(heading)
                 .verifyFirstNameLastName(name, surname)
-                .verifyInfoAccount(infoAccountMessage)
+                .verifyInfoAccount(Constants.INFO_ACCOUNT_MESSAGE)
                 .verifyLogout();
     }
 }

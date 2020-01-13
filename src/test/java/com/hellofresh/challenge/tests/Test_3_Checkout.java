@@ -1,5 +1,6 @@
 package com.hellofresh.challenge.tests;
 
+import com.hellofresh.challenge.constants.Constants;
 import com.hellofresh.challenge.pages.CheckoutPage;
 import com.hellofresh.challenge.pages.HomePage;
 import com.hellofresh.challenge.utilities.ExcelUtil;
@@ -15,7 +16,6 @@ import org.testng.annotations.Test;
 public class Test_3_Checkout extends BaseTest{
 
     String heading = "ORDER CONFIRMATION";
-    String orderCompleteMessage = "Your order on My Store is complete.";
 
     @BeforeTest
     public void setUpTestData() {
@@ -41,7 +41,7 @@ public class Test_3_Checkout extends BaseTest{
                 .verifyCheckoutHeading(heading)
                 .verifyShipping()
                 .verifyPayment()
-                .verifyOrderComplete(orderCompleteMessage);
+                .verifyOrderComplete(Constants.ORDER_COMPLETE_MESSAGE);
 
 
     }

@@ -1,5 +1,6 @@
 package com.hellofresh.challenge.tests;
 
+import com.hellofresh.challenge.constants.Constants;
 import com.hellofresh.challenge.pages.HomePage;
 import com.hellofresh.challenge.utilities.ExcelUtil;
 import com.hellofresh.challenge.utilities.LogUtil;
@@ -13,10 +14,6 @@ import org.testng.annotations.Test;
 public class Test_2_Login extends BaseTest {
 
     String expectedFullName = "Firstname Lastname";
-    String invalidUsernameMessage = "Authentication failed.";
-    String emptyUsernameMessage = "An email address required.";
-
-    String infoAccountMessage = "Welcome to your account.";
 
     @BeforeTest
     public void setUpTestData() {
@@ -37,7 +34,7 @@ public class Test_2_Login extends BaseTest {
         homePage.gotoHomePage()
                 .goToLoginPage()
                 .login(ExcelUtil.getRowData(2))
-                .verifyInvalidUserMessage(invalidUsernameMessage);
+                .verifyInvalidUserMessage(Constants.INVALID_USERNAME_MESSAGE);
 
     }
 
@@ -53,7 +50,7 @@ public class Test_2_Login extends BaseTest {
         homePage.gotoHomePage()
                 .goToLoginPage()
                 .login(ExcelUtil.getRowData(3))
-                .verifyEmptyUserMessage(emptyUsernameMessage);
+                .verifyEmptyUserMessage(Constants.EMPTY_USERNAME_MESSAGE);
     }
 
     @Test(priority = 2, description = "Valid Login Test")
@@ -69,7 +66,7 @@ public class Test_2_Login extends BaseTest {
                 .goToLoginPage()
                 .login(ExcelUtil.getRowData(1))
                 .verifyLoginUserName(expectedFullName)
-                .verifyInfoAccount(infoAccountMessage)
+                .verifyInfoAccount(Constants.INFO_ACCOUNT_MESSAGE)
                 .verifyLogout();
 
 

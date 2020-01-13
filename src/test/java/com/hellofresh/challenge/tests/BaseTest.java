@@ -1,5 +1,6 @@
 package com.hellofresh.challenge.tests;
 
+import com.ctc.wstx.evt.WEntityDeclaration;
 import com.hellofresh.challenge.utilities.LogUtil;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -13,6 +14,10 @@ public class BaseTest {
 
     // Test data excel file
     public static final String testDataExcelFileName = "testdata.xlsx";
+
+    public WebDriver getDriver() {
+        return driver;
+    }
 
     @BeforeClass
     public void setUp() {

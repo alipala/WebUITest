@@ -1,12 +1,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Time test Suite" verbose="1">
-    <test name="Login Test">
-        <groups>
-            <run>
-                <include name="login" />
-            </run>
-        </groups>
+<suite name="Suite" verbose="1">
+    <listeners>
+        <listener class-name="com.hellofresh.challenge.listeners.TestAllureListener"/>
+    </listeners>
+    <test name="Tests">
         <classes>
+            <class name="com.hellofresh.challenge.tests.Test_1_SignIn"/>
             <class name="com.hellofresh.challenge.tests.Test_2_Login" />
             <class name="com.hellofresh.challenge.tests.Test_3_Checkout" />
         </classes>

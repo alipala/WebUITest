@@ -1,6 +1,8 @@
 com\hellofresh\challenge\WebTest.class
 com\hellofresh\challenge\pages\HomePage.class
+com\hellofresh\challenge\utilities\FakeUserUtil.class
 com\hellofresh\challenge\pages\SignInPage.class
+com\hellofresh\challenge\listeners\TestAllureListener.class
 com\hellofresh\challenge\tests\BaseTest.class
 com\hellofresh\challenge\utilities\ExcelUtil.class
 com\hellofresh\challenge\tests\Test_1_SignIn.class

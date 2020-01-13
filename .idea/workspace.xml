@@ -2,40 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cf83f74-ca84-4ad6-a944-f5d2ac388d96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Logs/logs.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/136d0689-b25f-43c7-baf6-ef76a7f488ab-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/5db00ec3-9d09-410d-bd14-094df263cb92-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/632539f1-1f14-434d-ac77-1bc337cc4ee8-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/72283172-a98c-412e-9220-d62ed2c91463-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/utilities/LogUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_javafaker_javafaker_0_17_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_mifmif_generex_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dk_brics_automaton_automaton_1_11_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_android_1_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/constants/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/listeners/TestAllureListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/utilities/FakeUserUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/118f7ffe-d86d-4216-badf-5121282b4a40-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/2b241e5a-6951-4729-8d6c-c7ba26016d9b-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/b2ac0b26-11b2-4914-83be-bff36ef611b7-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/df35324a-fd56-4de5-8688-796cd3e18957-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loging.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs.log.2020-01-12-21-55" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs.log.2020-01-12-22-08" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs.log.2020-01-12-22-10" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs.log.2020-01-12-22-12" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs.log.2020-01-12-22-13" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs.log.2020-01-12-23-01" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs.log.2020-01-12-23-02" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs.log.2020-01-12-23-47" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs.log.2020-01-12-23-52" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs.log.2020-01-12-23-53" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs.log.2020-01-12-23-54" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs.log.2020-01-12-23-55" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/WebTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/WebTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/logs.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/logs.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/136d0689-b25f-43c7-baf6-ef76a7f488ab-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/5db00ec3-9d09-410d-bd14-094df263cb92-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/632539f1-1f14-434d-ac77-1bc337cc4ee8-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/72283172-a98c-412e-9220-d62ed2c91463-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/tests/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/tests/Test_1_SignIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/tests/Test_1_SignIn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/tests/Test_2_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/tests/Test_2_Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/tests/Test_3_Checkout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/tests/Test_3_Checkout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/utilities/ExcelUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/utilities/ExcelUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/testdata.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testdata.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
@@ -44,6 +30,8 @@
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/hellofresh/challenge/WebTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hellofresh/challenge/WebTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/web-test.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +71,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -229,8 +217,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.WebTest" />
       <item itemvalue="TestNG.Test_1_SignIn.validSignInTest_ValidValues" />
+      <item itemvalue="TestNG.WebTest" />
       <item itemvalue="TestNG.Test_2_Login" />
       <item itemvalue="TestNG.Test_2_Login.validLoginTest_ValidUserNameValidPassword" />
       <item itemvalue="TestNG.Test_1_SignIn" />
@@ -297,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578862891766</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Updated logging">
+      <created>1578868215396</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1578868215396</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -305,7 +300,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -317,7 +314,8 @@
     <MESSAGE value="log4j added" />
     <MESSAGE value="Priority is added&#10;Tests run sequentially&#10;Data Driven Testing is implemented" />
     <MESSAGE value="All assertions completed as Webtest includes" />
-    <option name="LAST_COMMIT_MESSAGE" value="All assertions completed as Webtest includes" />
+    <MESSAGE value="Updated logging" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated logging" />
   </component>
   <component name="WindowStateProjectService">
     <state x="487" y="121" key="#LoginTest.validLoginTest_ValidUserNameValidPassword" timestamp="1578761009397">
@@ -333,6 +331,10 @@
       <screen x="0" y="40" width="1536" height="824" />
     </state>
     <state x="470" y="263" key="#com.intellij.fileTypes.FileTypeChooser/0.40.1536.824@0.40.1536.824" timestamp="1578752015336" />
+    <state x="765" y="280" key="#com.intellij.ide.util.MemberChooser" timestamp="1578905043047">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="765" y="280" key="#com.intellij.ide.util.MemberChooser/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1578905043047" />
     <state x="499" y="203" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578841825750">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
@@ -342,56 +344,60 @@
     </state>
     <state x="514" y="270" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.40.1536.824@0.40.1536.824" timestamp="1578860246808" />
     <state x="695" y="448" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.40.1920.1040/0.40.1920.1040@0.40.1920.1040" timestamp="1578655208622" />
-    <state x="402" y="40" key="CommitChangelistDialog2" timestamp="1578862890480">
+    <state x="402" y="40" key="CommitChangelistDialog2" timestamp="1578868214006">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state x="402" y="40" key="CommitChangelistDialog2/0.40.1536.824@0.40.1536.824" timestamp="1578862890480" />
-    <state x="740" y="338" key="FileChooserDialogImpl" timestamp="1578653754169">
+    <state x="402" y="40" key="CommitChangelistDialog2/0.40.1536.824@0.40.1536.824" timestamp="1578868214006" />
+    <state x="740" y="338" key="FileChooserDialogImpl" timestamp="1578900319247">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
+    <state x="740" y="338" key="FileChooserDialogImpl/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1578900319247" />
     <state x="740" y="338" key="FileChooserDialogImpl/1920.40.1920.1040/0.40.1920.1040@0.40.1920.1040" timestamp="1578653754169" />
-    <state width="1493" height="203" key="GridCell.Tab.0.bottom" timestamp="1578868195357">
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom" timestamp="1578868593731">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.40.1536.824@0.40.1536.824" timestamp="1578868195357" />
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.40.1536.824@0.40.1536.824" timestamp="1578868593731" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/1920.40.1920.1040/0.40.1920.1040@0.40.1920.1040" timestamp="1578667850993" />
-    <state width="1493" height="203" key="GridCell.Tab.0.center" timestamp="1578868195356">
+    <state width="1493" height="203" key="GridCell.Tab.0.center" timestamp="1578868593731">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.center/0.40.1536.824@0.40.1536.824" timestamp="1578868195356" />
+    <state width="1493" height="203" key="GridCell.Tab.0.center/0.40.1536.824@0.40.1536.824" timestamp="1578868593731" />
     <state width="1877" height="282" key="GridCell.Tab.0.center/1920.40.1920.1040/0.40.1920.1040@0.40.1920.1040" timestamp="1578667850993" />
-    <state width="1493" height="203" key="GridCell.Tab.0.left" timestamp="1578868195356">
+    <state width="1493" height="203" key="GridCell.Tab.0.left" timestamp="1578868593731">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.left/0.40.1536.824@0.40.1536.824" timestamp="1578868195356" />
+    <state width="1493" height="203" key="GridCell.Tab.0.left/0.40.1536.824@0.40.1536.824" timestamp="1578868593731" />
     <state width="1877" height="282" key="GridCell.Tab.0.left/1920.40.1920.1040/0.40.1920.1040@0.40.1920.1040" timestamp="1578667850992" />
-    <state width="1493" height="203" key="GridCell.Tab.0.right" timestamp="1578868195357">
+    <state width="1493" height="203" key="GridCell.Tab.0.right" timestamp="1578868593731">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.right/0.40.1536.824@0.40.1536.824" timestamp="1578868195357" />
+    <state width="1493" height="203" key="GridCell.Tab.0.right/0.40.1536.824@0.40.1536.824" timestamp="1578868593731" />
     <state width="1877" height="282" key="GridCell.Tab.0.right/1920.40.1920.1040/0.40.1920.1040@0.40.1920.1040" timestamp="1578667850993" />
     <state x="496" y="167" key="RollbackChangesDialog" timestamp="1578864782145">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
     <state x="496" y="167" key="RollbackChangesDialog/0.40.1536.824@0.40.1536.824" timestamp="1578864782145" />
-    <state x="370" y="40" key="SettingsEditor" timestamp="1578760735350">
-      <screen x="0" y="40" width="1536" height="824" />
+    <state x="463" y="40" key="SettingsEditor" timestamp="1578900442504">
+      <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="370" y="40" key="SettingsEditor/0.40.1536.824@0.40.1536.824" timestamp="1578760735350" />
+    <state x="463" y="40" key="SettingsEditor/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1578900442504" />
     <state x="463" y="206" key="SettingsEditor/1920.40.1920.1040/0.40.1920.1040@0.40.1920.1040" timestamp="1578661897302" />
-    <state x="361" y="189" key="Vcs.Push.Dialog.v2" timestamp="1578856818413">
+    <state x="361" y="189" key="Vcs.Push.Dialog.v2" timestamp="1578868218418">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state x="361" y="189" key="Vcs.Push.Dialog.v2/0.40.1536.824@0.40.1536.824" timestamp="1578856818413" />
-    <state x="534" y="317" key="com.intellij.ide.util.TipDialog" timestamp="1578751186820">
-      <screen x="0" y="40" width="1536" height="824" />
+    <state x="361" y="189" key="Vcs.Push.Dialog.v2/0.40.1536.824@0.40.1536.824" timestamp="1578868218418" />
+    <state x="668" y="390" key="com.intellij.ide.util.TipDialog" timestamp="1578900129093">
+      <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="534" y="317" key="com.intellij.ide.util.TipDialog/0.40.1536.824@0.40.1536.824" timestamp="1578751186820" />
+    <state x="668" y="390" key="com.intellij.ide.util.TipDialog/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1578900129093" />
     <state x="668" y="389" key="com.intellij.ide.util.TipDialog/1920.40.1920.1040/0.40.1920.1040@0.40.1920.1040" timestamp="1578645899115" />
-    <state x="209" y="80" key="new project wizard" timestamp="1578779343496">
-      <screen x="0" y="40" width="1536" height="824" />
+    <state x="261" y="90" key="new project wizard" timestamp="1578900396666">
+      <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="209" y="80" key="new project wizard/0.40.1536.824@0.40.1536.824" timestamp="1578779343496" />
+    <state x="261" y="90" key="new project wizard/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1578900396666" />
     <state x="493" y="214" width="538" height="537" key="run.anything.popup" timestamp="1578777212528">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
