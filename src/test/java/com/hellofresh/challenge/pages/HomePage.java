@@ -25,12 +25,13 @@ public class HomePage extends BasePage {
 
     //*********Page Methods*********
     //Go to Homepage
-    public HomePage gotoHomePage (){
+    public HomePage gotoHomePage() {
         driver.get(baseURL);
         return this;
     }
+
     //Go to LoginPage
-    public LoginPage goToLoginPage (){
+    public LoginPage goToLoginPage() {
         click(loginButtonBy);
         return new LoginPage(driver);
     }

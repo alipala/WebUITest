@@ -45,15 +45,16 @@ public class SignInPage extends BasePage {
     By accountBy = By.className("account");
     By infoAccountBy = By.className("info-account");
     By logoutBy = By.className("logout");
+    By createAccountErrorBy = By.id("create_account_error");
 
 
     /**
      * Sign in form elements
+     *
      * @param row
      * @return
      */
     public SignInPage signIn(XSSFRow row) {
-
         writeText(emailCreateBy, row.getCell(0).toString());
         click(submitCreateBy);
         click(genderBy);
@@ -76,11 +77,16 @@ public class SignInPage extends BasePage {
         return this;
     }
 
+    public SignInPage enterExistingEmail(XSSFRow row) {
+        writeText(emailCreateBy, row.getCell(0).toString());
+        click(submitCreateBy);
+        return this;
+    }
 
     /**
      * Verify sign in details with expected text
-     * @param expectedText
-     *              Expected text
+     *
+     * @param expectedText Expected text
      * @return
      */
     public SignInPage verifySignInDetails(String expectedText) {
@@ -90,8 +96,8 @@ public class SignInPage extends BasePage {
 
     /**
      * Verify first name and last name after log in
-     * @param row
-     *          User information located in this row
+     *
+     * @param row User information located in this row
      * @return
      */
     public SignInPage verifyFirstNameLastName(XSSFRow row) {
@@ -102,8 +108,8 @@ public class SignInPage extends BasePage {
 
     /**
      * Verify account info
-     * @param expectedText
-     *              Expected text
+     *
+     * @param expectedText Expected text
      * @return
      */
     public SignInPage verifyInfoAccount(String expectedText) {
@@ -113,10 +119,20 @@ public class SignInPage extends BasePage {
 
     /**
      * Verify logout link
+     *
      * @return
      */
     public SignInPage verifyLogout() {
         assertTrueIsDisplayed(logoutBy);
+        return this;
+    }
+
+    /**
+     * @param expectedText Expected text
+     * @return
+     */
+    public SignInPage verifyAccountRegistered(String expectedText) {
+        assertEquals(createAccountErrorBy, expectedText);
         return this;
     }
 }

@@ -22,19 +22,19 @@ public class BasePage {
 
     /**
      * Constructor
-     * @param driver
-     *          Webdriver
+     *
+     * @param driver Webdriver
      */
-    public BasePage (WebDriver driver){
+    public BasePage(WebDriver driver) {
         this.driver = driver;
-        wait = new WebDriverWait(driver,15);
+        wait = new WebDriverWait(driver, 15);
     }
 
 
     /**
-     *  Wait Wrapper Method
-     * @param elementBy
-     *              element locator object
+     * Wait Wrapper Method
+     *
+     * @param elementBy element locator object
      */
     public void waitVisibility(By elementBy) {
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(elementBy));
@@ -43,10 +43,10 @@ public class BasePage {
 
     /**
      * Click Method
-     * @param elementBy
-     *              element locator object
+     *
+     * @param elementBy element locator object
      */
-    public void click (By elementBy) {
+    public void click(By elementBy) {
         waitVisibility(elementBy);
         driver.findElement(elementBy).click();
     }
@@ -54,12 +54,11 @@ public class BasePage {
 
     /**
      * Select Method
-     * @param elementBy
-     *          element locator object
-     * @param value
-     *          desired value in dropbox
+     *
+     * @param elementBy element locator object
+     * @param value     desired value in dropbox
      */
-    public void select (By elementBy, String value) {
+    public void select(By elementBy, String value) {
         Select select = new Select(driver.findElement(elementBy));
         select.selectByValue(value);
     }
@@ -67,12 +66,11 @@ public class BasePage {
 
     /**
      * Write Text
-     * @param elementBy
- *              element locator object
-     * @param text
-     *          send desired text to the element
+     *
+     * @param elementBy element locator object
+     * @param text      send desired text to the element
      */
-    public void writeText (By elementBy, String text) {
+    public void writeText(By elementBy, String text) {
         waitVisibility(elementBy);
         driver.findElement(elementBy).sendKeys(text);
     }
@@ -84,7 +82,7 @@ public class BasePage {
      * @return
      *
      */
-    public String readText (By elementBy) {
+    public String readText(By elementBy) {
         waitVisibility(elementBy);
         return driver.findElement(elementBy).getText();
     }
@@ -92,12 +90,11 @@ public class BasePage {
 
     /**
      * Assert Equals
-     * @param elementBy
-     *             element locator object
-     * @param expectedText
-     *              expected test to be used in assertion
+     *
+     * @param elementBy    element locator object
+     * @param expectedText expected test to be used in assertion
      */
-    public void assertEquals (By elementBy, String expectedText) {
+    public void assertEquals(By elementBy, String expectedText) {
         waitVisibility(elementBy);
         Assert.assertEquals(readText(elementBy), expectedText);
     }
@@ -105,8 +102,8 @@ public class BasePage {
 
     /**
      * Assert True assertion to verify the element is displayed
-     * @param elementBy
-     *            element locator object
+     *
+     * @param elementBy element locator object
      */
     public void assertTrueIsDisplayed(By elementBy) {
         waitVisibility(elementBy);
@@ -116,10 +113,9 @@ public class BasePage {
 
     /**
      * Assert True assertion to verify the element contains the correct data
-     * @param elementBy
-     *              element locator object
-     * @param expectedText
-     *              expected test to be used in assertion
+     *
+     * @param elementBy    element locator object
+     * @param expectedText expected test to be used in assertion
      */
     public void assertTrueContains(By elementBy, String expectedText) {
         waitVisibility(elementBy);

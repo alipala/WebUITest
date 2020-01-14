@@ -21,15 +21,14 @@ import org.testng.annotations.Test;
  */
 
 @Listeners({TestAllureListener.class})
-public class Test_2_SignIn extends BaseTest{
+public class Test_2_SignIn extends BaseTest {
+    String heading = "MY ACCOUNT";
 
     @BeforeTest
     public void setUpTestData() throws Exception {
         LogUtil.info("Setup Test Level Data");
         ExcelUtil.setExcelFileSheet("SigninData");
     }
-
-    String heading = "MY ACCOUNT";
 
     @Test(priority = 0, description = "Valid Sign In Test")
     @Severity(SeverityLevel.CRITICAL)
@@ -47,5 +46,22 @@ public class Test_2_SignIn extends BaseTest{
                 .verifyFirstNameLastName(ExcelUtil.getRowData(0))
                 .verifyInfoAccount(Constants.INFO_ACCOUNT_MESSAGE)
                 .verifyLogout();
+    }
+
+    @Test(priority = 0, description = "Valid Sign In Test")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Test Description: Sign In Scenario")
+    @Story("Sign In Test")
+    public void invalidSignInTest_WithExistingAccount() throws Exception {
+        HomePage homePage = new HomePage(driver);
+        SignInPage signInPage = new SignInPage(driver);
+
+        homePage.gotoHomePage()
+                .goToLoginPage();
+
+        signInPage.enterExistingEmail(ExcelUtil.getRowData(0))
+                .verifyAccountRegistered(Constants.ACCOUNT_ALREADY_REGISTERED_MESSAGE);
+
+
     }
 }

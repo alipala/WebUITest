@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9cf83f74-ca84-4ad6-a944-f5d2ac388d96" name="Default Changelist" comment="fixes">
+    <list default="true" id="9cf83f74-ca84-4ad6-a944-f5d2ac388d96" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Logs/logs.log.2020-01-14-04-08" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/logs.log.2020-01-14-21-30" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/logs.log.2020-01-14-21-34" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/logs.log.2020-01-14-21-36" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/logs.log.2020-01-14-21-37" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/logs.log.2020-01-14-21-38" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/logs.log.2020-01-14-21-43" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/logs.log.2020-01-14-21-44" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/logs.log.2020-01-14-21-45" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/logs.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/logs.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/constants/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/constants/Constants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/listeners/TestAllureListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/listeners/TestAllureListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/pages/BasePage.java" afterDir="false" />
@@ -10,13 +20,8 @@
       <change beforePath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/pages/SignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/pages/SignInPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/tests/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/tests/Test_1_DataPrep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/tests/Test_1_DataPrep.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/tests/Test_2_SignIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/tests/Test_2_SignIn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/tests/Test_3_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/tests/Test_3_Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/tests/Test_4_Checkout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/tests/Test_4_Checkout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/utilities/ExcelUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/utilities/ExcelUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/utilities/FakeUserUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/utilities/FakeUserUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/utilities/LogUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/utilities/LogUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -299,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578964143103</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Java docs updated">
+      <created>1579024106314</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1579024106314</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -325,7 +337,8 @@
     <MESSAGE value="Take screenshot is added&#10;Constants class is added" />
     <MESSAGE value="Sign in and log in information generated automatically is added" />
     <MESSAGE value="fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixes" />
+    <MESSAGE value="Java docs updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java docs updated" />
   </component>
   <component name="WindowStateProjectService">
     <state x="487" y="121" key="#LoginTest.validLoginTest_ValidUserNameValidPassword" timestamp="1578761009397">
@@ -359,10 +372,10 @@
     </state>
     <state x="514" y="270" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.40.1536.824@0.40.1536.824" timestamp="1578961580564" />
     <state x="695" y="448" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.40.1920.1040/0.40.1920.1040@0.40.1920.1040" timestamp="1578655208622" />
-    <state x="402" y="40" key="CommitChangelistDialog2" timestamp="1579021569900">
+    <state x="402" y="40" key="CommitChangelistDialog2" timestamp="1579024105429">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state x="402" y="40" key="CommitChangelistDialog2/0.40.1536.824@0.40.1536.824" timestamp="1579021569900" />
+    <state x="402" y="40" key="CommitChangelistDialog2/0.40.1536.824@0.40.1536.824" timestamp="1579024105429" />
     <state x="503" y="40" key="CommitChangelistDialog2/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1578918974967" />
     <state x="740" y="338" key="FileChooserDialogImpl" timestamp="1578986781152">
       <screen x="0" y="40" width="1920" height="1040" />
@@ -399,10 +412,10 @@
     <state x="370" y="40" key="SettingsEditor/0.40.1536.824@0.40.1536.824" timestamp="1578944066119" />
     <state x="463" y="40" key="SettingsEditor/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1578900442504" />
     <state x="463" y="206" key="SettingsEditor/1920.40.1920.1040/0.40.1920.1040@0.40.1920.1040" timestamp="1578661897302" />
-    <state x="361" y="189" key="Vcs.Push.Dialog.v2" timestamp="1578964144448">
+    <state x="361" y="189" key="Vcs.Push.Dialog.v2" timestamp="1579024107671">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state x="361" y="189" key="Vcs.Push.Dialog.v2/0.40.1536.824@0.40.1536.824" timestamp="1578964144448" />
+    <state x="361" y="189" key="Vcs.Push.Dialog.v2/0.40.1536.824@0.40.1536.824" timestamp="1579024107671" />
     <state x="451" y="228" key="Vcs.Push.Dialog.v2/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1578918978619" />
     <state x="668" y="390" key="com.intellij.ide.util.TipDialog" timestamp="1578982435871">
       <screen x="0" y="40" width="1920" height="1040" />
@@ -420,9 +433,9 @@
     </state>
     <state x="493" y="214" width="538" height="537" key="run.anything.popup/0.40.1536.824@0.40.1536.824" timestamp="1578777212528" />
     <state x="616" y="260" width="672" height="677" key="run.anything.popup/1920.40.1920.1040/0.40.1920.1040@0.40.1920.1040" timestamp="1578656234322" />
-    <state x="431" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1578961594490">
+    <state x="431" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1579026185053">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state x="431" y="185" width="672" height="678" key="search.everywhere.popup/0.40.1536.824@0.40.1536.824" timestamp="1578961594490" />
+    <state x="431" y="185" width="672" height="678" key="search.everywhere.popup/0.40.1536.824@0.40.1536.824" timestamp="1579026185053" />
   </component>
 </project>

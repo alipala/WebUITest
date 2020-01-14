@@ -21,7 +21,7 @@ public class TestAllureListener extends BaseTest implements ITestListener {
 
     @Attachment(value = "Page screenshot", type = "image/png")
     public byte[] saveScreenshotPNG(WebDriver driver) {
-        return ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
+        return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
     }
 
     public void onTestStart(ITestResult iTestResult) {

@@ -23,12 +23,25 @@ public class Test_3_Login extends BaseTest {
         ExcelUtil.setExcelFileSheet("SigninData");
     }
 
-    @Test(priority = 0, description = "Invalid Login Test with Invalid Credentials")
+    @Test(priority = 0, description = "Forget Password Test with an Existing Email ")
+    @Severity(SeverityLevel.NORMAL)
+    @Description("Test Description: Forget Password Scenario")
+    @Story("Login Test")
+    public void forgetPasswordTest() throws Exception {
+        LogUtil.info("Forget Password Test");
+
+        HomePage homePage = new HomePage(driver);
+        homePage.gotoHomePage()
+                .goToLoginPage()
+                .forgetPassword(ExcelUtil.getRowData(0))
+                .verifyConfirmationEmailSent(Constants.CONFIRMATION_EMAIL_SENT_MESSAGE + ExcelUtil.getRowData(0).getCell(0).toString());
+    }
+
+    @Test(priority = 1, description = "Invalid Login Test with Invalid Credentials")
     @Severity(SeverityLevel.BLOCKER)
     @Description("Test Description: Login Scenario")
     @Story("Login Test")
-    public void invalidLoginTest_InvalidUserNameInvalidPassword() throws Exception{
-
+    public void invalidLoginTest_InvalidUserNameInvalidPassword() throws Exception {
         LogUtil.info("Invalid Login Test with Invalid Credentials");
 
         HomePage homePage = new HomePage(driver);
@@ -39,12 +52,11 @@ public class Test_3_Login extends BaseTest {
 
     }
 
-    @Test(priority = 1, description = "Invalid Login Test with Empty Credentials")
+    @Test(priority = 2, description = "Invalid Login Test with Empty Credentials")
     @Severity(SeverityLevel.CRITICAL)
     @Description("Test Description: Login Scenario")
     @Story("Login Test")
     public void invalidLoginTest_EmptyUserNameEmptyPassword() throws Exception {
-
         LogUtil.info("Invalid Login Test with Empty Credentials");
 
         HomePage homePage = new HomePage(driver);
@@ -54,12 +66,11 @@ public class Test_3_Login extends BaseTest {
                 .verifyEmptyUserMessage(Constants.EMPTY_USERNAME_MESSAGE);
     }
 
-    @Test(priority = 2, description = "Valid Login Test")
+    @Test(priority = 3, description = "Valid Login Test")
     @Severity(SeverityLevel.CRITICAL)
     @Description("Test Description: Login Scenario")
     @Story("Login Test")
     public void validLoginTest_ValidUserNameValidPassword() throws Exception {
-
         LogUtil.info("Valid Login Test");
 
         HomePage homePage = new HomePage(driver);
@@ -69,7 +80,6 @@ public class Test_3_Login extends BaseTest {
                 .verifyLoginUserName(ExcelUtil.getRowData(0))
                 .verifyInfoAccount(Constants.INFO_ACCOUNT_MESSAGE)
                 .verifyLogout();
-
 
     }
 }

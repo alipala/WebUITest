@@ -8,7 +8,7 @@ import org.openqa.selenium.WebDriver;
  *      Ali Pala, mailto:ali.pala@ymail.com
  *  Checkout Page web elements and methods to use in related actions
  */
-public class CheckoutPage extends BasePage{
+public class CheckoutPage extends BasePage {
     public CheckoutPage(WebDriver driver) {
         super(driver);
     }
@@ -33,6 +33,7 @@ public class CheckoutPage extends BasePage{
 
     /**
      * Handle information to be used in checkout
+     *
      * @return
      */
     public CheckoutPage checkout() {
@@ -52,6 +53,7 @@ public class CheckoutPage extends BasePage{
 
     /**
      * Verify checkout heading is correct
+     *
      * @param expectedText
      * @return
      */
@@ -63,6 +65,7 @@ public class CheckoutPage extends BasePage{
 
     /**
      * Verify shipping stage is displayed
+     *
      * @return
      */
     public CheckoutPage verifyShipping() {
@@ -73,6 +76,7 @@ public class CheckoutPage extends BasePage{
 
     /**
      * Verify payment stage is displayed
+     *
      * @return
      */
     public CheckoutPage verifyPayment() {
@@ -82,8 +86,8 @@ public class CheckoutPage extends BasePage{
 
     /**
      * Verify order complete stage is displayed
-     * @param expectedText
-     *              expected test once order is completed
+     *
+     * @param expectedText expected test once order is completed
      * @return
      */
     public CheckoutPage verifyOrderComplete(String expectedText) {
