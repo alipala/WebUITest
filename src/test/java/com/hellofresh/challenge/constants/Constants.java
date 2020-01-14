@@ -1,5 +1,9 @@
 package com.hellofresh.challenge.constants;
 
+/***
+ * These are the constants for messages comes once a message triggered
+ * and user credentials to be used in invalid login test
+ */
 public class Constants {
 
     public static final String INFO_ACCOUNT_MESSAGE = "Welcome to your account.";

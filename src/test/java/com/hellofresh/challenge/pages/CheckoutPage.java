@@ -3,6 +3,11 @@ package com.hellofresh.challenge.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+/***
+ * @author
+ *      Ali Pala, mailto:ali.pala@ymail.com
+ *  Checkout Page web elements and methods to use in related actions
+ */
 public class CheckoutPage extends BasePage{
     public CheckoutPage(WebDriver driver) {
         super(driver);
@@ -27,6 +32,7 @@ public class CheckoutPage extends BasePage{
     By orderCompleteBy = By.xpath("//*[@class='cheque-indent']/strong"); //Order Complete contains
 
     /**
+     * Handle information to be used in checkout
      * @return
      */
     public CheckoutPage checkout() {
@@ -45,6 +51,7 @@ public class CheckoutPage extends BasePage{
     }
 
     /**
+     * Verify checkout heading is correct
      * @param expectedText
      * @return
      */
@@ -53,16 +60,32 @@ public class CheckoutPage extends BasePage{
         return this;
     }
 
+
+    /**
+     * Verify shipping stage is displayed
+     * @return
+     */
     public CheckoutPage verifyShipping() {
         assertTrueIsDisplayed(shippingBy);
         return this;
     }
 
+
+    /**
+     * Verify payment stage is displayed
+     * @return
+     */
     public CheckoutPage verifyPayment() {
         assertTrueIsDisplayed(paymentBy);
         return this;
     }
 
+    /**
+     * Verify order complete stage is displayed
+     * @param expectedText
+     *              expected test once order is completed
+     * @return
+     */
     public CheckoutPage verifyOrderComplete(String expectedText) {
         assertTrueContains(orderCompleteBy, expectedText);
         return this;

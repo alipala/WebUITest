@@ -14,6 +14,12 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+
+/***
+ * @author
+ *      Ali Pala, mailto:ali.pala@ymail.com
+ */
+
 @Listeners({TestAllureListener.class})
 public class Test_2_SignIn extends BaseTest{
 
@@ -35,7 +41,6 @@ public class Test_2_SignIn extends BaseTest{
 
         homePage.gotoHomePage()
                 .goToLoginPage();
-
 
         signInPage.signIn(ExcelUtil.getRowData(0))
                 .verifySignInDetails(heading)

@@ -12,6 +12,10 @@ import io.qameta.allure.Story;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+/***
+ * @author
+ *      Ali Pala, mailto:ali.pala@ymail.com
+ */
 
 public class Test_4_Checkout extends BaseTest {
 

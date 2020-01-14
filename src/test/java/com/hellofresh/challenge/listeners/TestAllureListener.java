@@ -10,6 +10,9 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
+/***
+ * Allure Report Listener to save the screenshot once a test is failed
+ */
 public class TestAllureListener extends BaseTest implements ITestListener {
 
     private static String getTestMethodName(ITestResult iTestResult) {

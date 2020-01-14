@@ -5,6 +5,12 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+/***
+ * @author
+ *      Ali Pala, mailto:ali.pala@ymail.com
+ *
+ *  LoginPage class consists of Login page elements and methods
+ */
 public class LoginPage extends BasePage {
     public LoginPage(WebDriver driver) {
         super(driver);
@@ -19,13 +25,14 @@ public class LoginPage extends BasePage {
     By errorMessageEmptyUsernameBy = By.xpath("//li[contains(text(),'An email address required.')]");
 
     //*********Assertions Web Elements*********
-    By accountBy = By.className("account");
     By infoAccountBy = By.className("info-account");
     By logoutBy = By.className("logout");
 
 
     /**
+     * Login method with credentials comes from excel sheet
      * @param row
+     *          User information located in this row
      * @return
      */
     @Step("Login Step with username: {0}, password: {1}, for method: {method}")
@@ -37,6 +44,7 @@ public class LoginPage extends BasePage {
     }
 
     /**
+     * Login method get credentials from user directly
      * @return
      */
     @Step("Login Step with username: {0}, password: {1}, for method: {method}")
@@ -50,6 +58,7 @@ public class LoginPage extends BasePage {
     /**
      * Verify Valid Username Condition
      * @param row
+     *          User information located in this row
      * @return
      */
     public LoginPage verifyLoginUserName (XSSFRow row) {
@@ -60,6 +69,7 @@ public class LoginPage extends BasePage {
     /**
      * Verify Invalid Username Condition
      * @param expectedText
+     *              Expected test to verify the message in invalid user attempt
      * @return
      */
     public LoginPage verifyInvalidUserMessage (String expectedText) {
@@ -70,6 +80,7 @@ public class LoginPage extends BasePage {
     /**
      * Verify Empty Username Condition
      * @param expectedText
+     *              Expected test to verify the message in empty user attempt
      * @return
      */
     public LoginPage verifyEmptyUserMessage (String expectedText) {
@@ -79,7 +90,9 @@ public class LoginPage extends BasePage {
 
 
     /**
+     * Verify the logged in account is correct
      * @param expectedText
+     *              expected info account text
      * @return
      */
     public LoginPage verifyInfoAccount(String expectedText) {
@@ -88,6 +101,7 @@ public class LoginPage extends BasePage {
     }
 
     /**
+     * Verify logout button
      * @return
      */
     public LoginPage verifyLogout() {

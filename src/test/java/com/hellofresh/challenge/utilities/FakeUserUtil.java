@@ -14,6 +14,14 @@ import java.util.Locale;
 
 import static com.hellofresh.challenge.tests.BaseTest.testDataExcelFileName;
 
+/***
+ * @author
+ *      Ali Pala, mailto:ali.pala@ymail.com
+ *
+ * Generate fake user utility class to handle fake user operations
+ * https://github.com/DiUS/java-faker
+ */
+
 public class FakeUserUtil {
 
     Faker faker = new Faker(new Locale("en-GB"));

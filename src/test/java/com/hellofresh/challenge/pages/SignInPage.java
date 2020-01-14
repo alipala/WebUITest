@@ -5,6 +5,11 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+/***
+ * @author
+ *      Ali Pala, mailto:ali.pala@ymail.com
+ * Sign in Page elements and methods
+ */
 public class SignInPage extends BasePage {
 
     FakeUserUtil user = new FakeUserUtil();
@@ -43,6 +48,7 @@ public class SignInPage extends BasePage {
 
 
     /**
+     * Sign in form elements
      * @param row
      * @return
      */
@@ -72,7 +78,9 @@ public class SignInPage extends BasePage {
 
 
     /**
+     * Verify sign in details with expected text
      * @param expectedText
+     *              Expected text
      * @return
      */
     public SignInPage verifySignInDetails(String expectedText) {
@@ -81,7 +89,9 @@ public class SignInPage extends BasePage {
     }
 
     /**
+     * Verify first name and last name after log in
      * @param row
+     *          User information located in this row
      * @return
      */
     public SignInPage verifyFirstNameLastName(XSSFRow row) {
@@ -91,7 +101,9 @@ public class SignInPage extends BasePage {
     }
 
     /**
+     * Verify account info
      * @param expectedText
+     *              Expected text
      * @return
      */
     public SignInPage verifyInfoAccount(String expectedText) {
@@ -100,6 +112,7 @@ public class SignInPage extends BasePage {
     }
 
     /**
+     * Verify logout link
      * @return
      */
     public SignInPage verifyLogout() {

@@ -2,6 +2,13 @@ package com.hellofresh.challenge.utilities;
 
 import org.apache.log4j.Logger;
 
+/***
+ * @author
+ *      Ali Pala, mailto:ali.pala@ymail.com
+ *
+ * Log utility class to handle user friendly logs
+ */
+
 public class LogUtil {
 
     //Initialize Log4j instance

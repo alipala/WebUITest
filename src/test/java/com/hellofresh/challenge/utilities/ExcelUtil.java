@@ -7,10 +7,14 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
 
 import static com.hellofresh.challenge.tests.BaseTest.testDataExcelFileName;
+
+/***
+ * @author
+ *      Ali Pala, mailto:ali.pala@ymail.com
+ * Excel utility class to handle excel operations
+ */
 
 public class ExcelUtil {
     //Main Directory of the project
@@ -54,7 +58,7 @@ public class ExcelUtil {
         return columnNumber;
     }
 
-    // This method has two parameters: "Test data excel file name" and "Excel sheet name"
+    // This method has a parameter: "Excel sheet name"
     // It creates FileInputStream and set excel file and excel sheet to excelWBook and excelWSheet variables.
     public static void setExcelFileSheet(String sheetName) {
         //Selection for excel path
