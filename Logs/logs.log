@@ -1,3 +1,13 @@
-2020-01-14 22:06:12,915 [main] INFO  (LogUtil.java:29) - Setup Test Level Data
-2020-01-14 22:06:16,955 [main] INFO  (LogUtil.java:19) - Test is Starting...
-2020-01-14 22:06:35,340 [main] INFO  (LogUtil.java:24) - Test is Ending...
+2020-01-14 22:40:00,542 [main] INFO  (LogUtil.java:24) - Test is Ending...
+2020-01-14 22:40:03,995 [main] INFO  (LogUtil.java:19) - Test is Starting...
+2020-01-14 22:40:03,998 [main] INFO  (LogUtil.java:29) - Forget Password Test
+2020-01-14 22:40:27,448 [main] ERROR (LogUtil.java:39) - Test is failed
+2020-01-14 22:40:27,449 [main] INFO  (LogUtil.java:29) - Screenshot captured for test case:forgetPasswordTest
+2020-01-14 22:40:27,517 [main] ERROR (LogUtil.java:39) - Test is failed
+2020-01-14 22:40:27,518 [main] INFO  (LogUtil.java:29) - Screenshot captured for test case:forgetPasswordTest
+2020-01-14 22:40:31,041 [main] INFO  (LogUtil.java:19) - Test is Starting...
+2020-01-14 22:40:31,045 [main] INFO  (LogUtil.java:29) - Checkout test started
+2020-01-14 22:40:38,481 [main] ERROR (LogUtil.java:39) - Test is failed
+2020-01-14 22:40:38,481 [main] INFO  (LogUtil.java:29) - Screenshot captured for test case:validCheckoutTest
+2020-01-14 22:40:38,484 [main] ERROR (LogUtil.java:39) - Test is failed
+2020-01-14 22:40:38,484 [main] INFO  (LogUtil.java:29) - Screenshot captured for test case:validCheckoutTest
