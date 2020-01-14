@@ -2,6 +2,8 @@
 
 The project is about functional UI test automation project includes tech stack: Java, TestNG, Allure Report, Maven, Jenkins, Log4J, IntelliJ.
 
+[Tested Website](http://automationpractice.com/index.php)
+
 ## Getting Started
 
 The project can be cloned from GitHub. Since it is a maven project, all the dependencies will be imported easily on your local machine for the enhancing the development and test. See deployment for notes on how to deploy the project on a live system.
