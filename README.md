@@ -73,8 +73,6 @@ mvn -Dtest=Test_2_SignIn#validSignInTest clean test
 
 * **Ali Pala** - *See the all repositories* - [Ali Pala](https://github.com/alipala)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
