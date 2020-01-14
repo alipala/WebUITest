@@ -17,53 +17,45 @@ Note: JDK version: jdk1.8.0_211
 
 ## Running the tests
 
-Beside of the running test on Jenkins, you can exeute the tests as TestNG or a Maven. 
+* Jenkins:
 
-* TestNG: Goto Edit Configuration and set the project as TestNG project.
+Please read this blog post [Build a maven project to run test](https://medium.com/@anusha.sharma3010/build-a-simple-maven-project-in-jenkins-da7a2a4ae202)
+
+* TestNG: 
+- Goto Edit Configuration and set the project as TestNG project.
 * Maven: 
-Goto project root folder and for running all tests
+- Goto project root folder and for running all tests
 ```
 mvn clean test
 ```
-Goto project root folder and for running all tests in a class
+- for running all tests in a class
+```
+mvn -Dtest=Test_2_SignIn clean test
+```
+- for a running single test
 ```
 mvn -Dtest=Test_2_SignIn#validSignInTest clean test
 ```
 
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
+### Tests
 
 Explain what these tests test and why
 
 ```
 Give an example
 ```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [JAVA](https://docs.oracle.com/javase/8/docs/technotes/guides/language/index.html) - Programming Language
+* [TestNG](https://testng.org/doc/) - The testing framework
+* [Selenium](https://selenium.dev/) - Used to generate browser automation tests
+* [Maven](https://maven.apache.org/) - It is a build automation tool used for Java projects
+* [JavaFaker](http://dius.github.io/java-faker/) - Used to generate fake user data to be used in Signin and Login
+* [Allure Report](http://allure.qatools.ru/) - Used to create test execution reports
+* [Log4J](https://logging.apache.org/log4j/2.x/) - For inserting log statements into code 
+* [Jenkins](https://jenkins.io/) - It is an open source automation server to build the job periodically with required plugins
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
@@ -77,7 +69,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Please have a look how to migrate Jenkins job to your local. [Jenkins Job migration] (https://staxmanade.com/2015/01/how-to-migrate-a-jenkins-job-to-new-jenkins-server/)
 
