@@ -21,8 +21,7 @@ Note: JDK version: jdk1.8.0_211
 
 Please read this blog post [Build a maven project to run test](https://medium.com/@anusha.sharma3010/build-a-simple-maven-project-in-jenkins-da7a2a4ae202)
 
-* TestNG: 
-- Goto Edit Configuration and set the project as TestNG project.
+* TestNG: Goto Edit Configuration and set the project as TestNG project.
 * Maven: 
 - Goto project root folder and for running all tests
 ```
