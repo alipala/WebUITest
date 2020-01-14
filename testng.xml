@@ -5,9 +5,9 @@
     </listeners>
     <test name="Tests">
         <classes>
-            <class name="com.hellofresh.challenge.tests.Test_1_SignIn"/>
-            <class name="com.hellofresh.challenge.tests.Test_2_Login" />
-            <class name="com.hellofresh.challenge.tests.Test_3_Checkout" />
+            <class name="com.hellofresh.challenge.tests.Test_2_SignIn"/>
+            <class name="com.hellofresh.challenge.tests.Test_3_Login" />
+            <class name="com.hellofresh.challenge.tests.Test_4_Checkout" />
         </classes>
     </test>
 </suite>

@@ -1,5 +1,19 @@
-2020-01-13 13:04:00,941 [main] INFO  (LogUtil.java:12) - Test is Starting...
-2020-01-13 13:04:01,001 [main] INFO  (LogUtil.java:22) - User email: hf_challenge_1578909836186@hf836186.com
-2020-01-13 13:04:01,518 [main] INFO  (LogUtil.java:22) - ******Fake users:**********
-2020-01-13 13:04:12,977 [main] ERROR (LogUtil.java:32) - Test is failed
-2020-01-13 13:04:14,013 [main] INFO  (LogUtil.java:17) - Test is Ending...
+2020-01-14 03:34:05,876 [main] INFO  (LogUtil.java:22) - Setup Test Level Data
+2020-01-14 03:34:06,224 [main] INFO  (LogUtil.java:22) - Setup Test Level Data
+2020-01-14 03:34:06,247 [main] INFO  (LogUtil.java:22) - Setup Test Level Data
+2020-01-14 03:34:09,811 [main] INFO  (LogUtil.java:12) - Test is Starting...
+2020-01-14 03:34:16,211 [main] ERROR (LogUtil.java:32) - Test is failed
+2020-01-14 03:34:16,211 [main] INFO  (LogUtil.java:22) - Screenshot captured for test case:validSignInTest
+2020-01-14 03:34:16,404 [main] ERROR (LogUtil.java:32) - Test is failed
+2020-01-14 03:34:16,404 [main] INFO  (LogUtil.java:22) - Screenshot captured for test case:validSignInTest
+2020-01-14 03:34:17,445 [main] INFO  (LogUtil.java:17) - Test is Ending...
+2020-01-14 03:34:20,409 [main] INFO  (LogUtil.java:12) - Test is Starting...
+2020-01-14 03:34:20,413 [main] INFO  (LogUtil.java:22) - Invalid Login Test with Invalid Credentials
+2020-01-14 03:34:24,250 [main] ERROR (LogUtil.java:32) - Test is failed
+2020-01-14 03:34:24,251 [main] INFO  (LogUtil.java:22) - Screenshot captured for test case:invalidLoginTest_InvalidUserNameInvalidPassword
+2020-01-14 03:34:24,253 [main] ERROR (LogUtil.java:32) - Test is failed
+2020-01-14 03:34:24,253 [main] INFO  (LogUtil.java:22) - Screenshot captured for test case:invalidLoginTest_InvalidUserNameInvalidPassword
+2020-01-14 03:34:42,929 [main] INFO  (LogUtil.java:22) - Setup Test Level Data
+2020-01-14 03:34:46,956 [main] INFO  (LogUtil.java:12) - Test is Starting...
+2020-01-14 03:34:47,642 [main] INFO  (LogUtil.java:22) - Fake user data created
+2020-01-14 03:34:48,488 [main] INFO  (LogUtil.java:17) - Test is Ending...

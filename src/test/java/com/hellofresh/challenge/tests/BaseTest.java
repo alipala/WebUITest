@@ -1,6 +1,7 @@
 package com.hellofresh.challenge.tests;
 
 import com.ctc.wstx.evt.WEntityDeclaration;
+import com.hellofresh.challenge.utilities.FakeUserUtil;
 import com.hellofresh.challenge.utilities.LogUtil;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;

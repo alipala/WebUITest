@@ -93,28 +93,4 @@ public class ExcelUtil {
         }
     }
 
-    //This method gets excel file, row and column number and set a value to the that cell.
-    public static void setCellData(String value, int RowNum, int ColNum) throws Exception {
-        try {
-            row = excelWSheet.getRow(RowNum);
-            cell = row.getCell(ColNum);
-            if (cell == null) {
-                cell = row.createCell(ColNum);
-                cell.setCellValue(value);
-            } else {
-                cell.setCellValue(value);
-            }
-            // Constant variables Test Data path and Test Data file name
-            FileOutputStream fileOut = new FileOutputStream(testDataExcelPath + testDataExcelFileName);
-            excelWBook.write(fileOut);
-            fileOut.flush();
-            fileOut.close();
-        } catch (Exception e) {
-            try {
-                throw (e);
-            } catch (IOException e1) {
-                e1.printStackTrace();
-            }
-        }
-    }
 }

@@ -13,14 +13,14 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 
-public class Test_3_Checkout extends BaseTest{
+public class Test_4_Checkout extends BaseTest {
 
     String heading = "ORDER CONFIRMATION";
 
     @BeforeTest
     public void setUpTestData() {
         LogUtil.info("Setup Test Level Data");
-        ExcelUtil.setExcelFileSheet("LoginData");
+        ExcelUtil.setExcelFileSheet("SigninData");
     }
 
     @Test(priority = 0, description = "Valid Checkout  Test")
@@ -35,16 +35,12 @@ public class Test_3_Checkout extends BaseTest{
 
         homePage.gotoHomePage()
                 .goToLoginPage()
-                .login(ExcelUtil.getRowData(1));
+                .login(ExcelUtil.getRowData(0));
 
         checkoutPage.checkout()
                 .verifyCheckoutHeading(heading)
                 .verifyShipping()
                 .verifyPayment()
                 .verifyOrderComplete(Constants.ORDER_COMPLETE_MESSAGE);
-
-
     }
-
-
 }

@@ -2,26 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cf83f74-ca84-4ad6-a944-f5d2ac388d96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_javafaker_javafaker_0_17_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_mifmif_generex_1_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dk_brics_automaton_automaton_1_11_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_android_1_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/constants/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/listeners/TestAllureListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/utilities/FakeUserUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/tests/Test_1_DataPrep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/tests/Test_2_SignIn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/logs.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/logs.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/136d0689-b25f-43c7-baf6-ef76a7f488ab-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/5db00ec3-9d09-410d-bd14-094df263cb92-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/632539f1-1f14-434d-ac77-1bc337cc4ee8-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/72283172-a98c-412e-9220-d62ed2c91463-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/pages/SignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/pages/SignInPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/tests/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/tests/Test_1_SignIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/tests/Test_1_SignIn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/tests/Test_2_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/tests/Test_2_Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/tests/Test_3_Checkout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/tests/Test_3_Checkout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/tests/Test_1_SignIn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/tests/Test_2_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/tests/Test_3_Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/tests/Test_3_Checkout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/tests/Test_4_Checkout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/utilities/ExcelUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/utilities/ExcelUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/utilities/FakeUserUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hellofresh/challenge/utilities/FakeUserUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/testdata.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testdata.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
@@ -29,9 +21,7 @@
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hellofresh/challenge/WebTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hellofresh/challenge/WebTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/web-test.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +75,7 @@
       <recent name="C:\Users\z003d7tu.AD001\Desktop\qa-test-hf_1.3\qa-test-hf\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Test_3_Checkout">
+  <component name="RunManager" selected="TestNG.Test_4_Checkout">
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -112,7 +102,7 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
-    <configuration name="Test_1_SignIn" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_2_SignIn" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="web-test" />
       <extension name="coverage">
         <pattern>
@@ -121,7 +111,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.hellofresh.challenge.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.hellofresh.challenge.tests.Test_1_SignIn" />
+      <option name="MAIN_CLASS_NAME" value="com.hellofresh.challenge.tests.Test_2_SignIn" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -129,16 +119,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_1_SignIn.validSignInTest_ValidValues" type="TestNG" nameIsGenerated="true">
+    <configuration name="Test_2_SignIn.validSignInTest_ValidValues" type="TestNG" nameIsGenerated="true">
       <module name="web-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hellofresh.challenge.tests.Test_1_SignIn" />
+          <option name="PATTERN" value="com.hellofresh.challenge.tests.Test_2_SignIn" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.hellofresh.challenge.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.hellofresh.challenge.tests.Test_1_SignIn" />
+      <option name="MAIN_CLASS_NAME" value="com.hellofresh.challenge.tests.Test_2_SignIn" />
       <option name="METHOD_NAME" value="validSignInTest_ValidValues" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -147,16 +137,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_2_Login" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_3_Login" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="web-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hellofresh.challenge.tests.Test_1_SignIn" />
+          <option name="PATTERN" value="com.hellofresh.challenge.tests.Test_2_SignIn" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.hellofresh.challenge.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.hellofresh.challenge.tests.Test_2_Login" />
+      <option name="MAIN_CLASS_NAME" value="com.hellofresh.challenge.tests.Test_3_Login" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -164,16 +154,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_2_Login.validLoginTest_ValidUserNameValidPassword" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_3_Login.validLoginTest_ValidUserNameValidPassword" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="web-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hellofresh.challenge.tests.Test_1_SignIn" />
+          <option name="PATTERN" value="com.hellofresh.challenge.tests.Test_2_SignIn" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.hellofresh.challenge.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.hellofresh.challenge.tests.Test_2_Login" />
+      <option name="MAIN_CLASS_NAME" value="com.hellofresh.challenge.tests.Test_3_Login" />
       <option name="METHOD_NAME" value="validLoginTest_ValidUserNameValidPassword" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -182,7 +172,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_3_Checkout" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_4_Checkout" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="web-test" />
       <extension name="coverage">
         <pattern>
@@ -191,7 +181,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.hellofresh.challenge.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.hellofresh.challenge.tests.Test_3_Checkout" />
+      <option name="MAIN_CLASS_NAME" value="com.hellofresh.challenge.tests.Test_4_Checkout" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -217,19 +207,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.Test_1_SignIn.validSignInTest_ValidValues" />
       <item itemvalue="TestNG.WebTest" />
-      <item itemvalue="TestNG.Test_2_Login" />
-      <item itemvalue="TestNG.Test_2_Login.validLoginTest_ValidUserNameValidPassword" />
-      <item itemvalue="TestNG.Test_1_SignIn" />
-      <item itemvalue="TestNG.Test_3_Checkout" />
+      <item itemvalue="TestNG.Test_2_SignIn.validSignInTest_ValidValues" />
+      <item itemvalue="TestNG.Test_2_SignIn" />
+      <item itemvalue="TestNG.Test_4_Checkout" />
+      <item itemvalue="TestNG.Test_3_Login" />
+      <item itemvalue="TestNG.Test_3_Login.validLoginTest_ValidUserNameValidPassword" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Test_3_Checkout" />
-        <item itemvalue="TestNG.Test_1_SignIn" />
-        <item itemvalue="TestNG.Test_2_Login.validLoginTest_ValidUserNameValidPassword" />
-        <item itemvalue="TestNG.Test_2_Login" />
+        <item itemvalue="TestNG.Test_4_Checkout" />
+        <item itemvalue="TestNG.Test_2_SignIn" />
+        <item itemvalue="TestNG.Test_3_Login.validLoginTest_ValidUserNameValidPassword" />
+        <item itemvalue="TestNG.Test_3_Login" />
         <item itemvalue="TestNG.WebTest" />
       </list>
     </recent_temporary>
@@ -292,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578868215396</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Take screenshot is added&#10;Constants class is added">
+      <created>1578918976514</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1578918976514</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -315,7 +312,8 @@
     <MESSAGE value="Priority is added&#10;Tests run sequentially&#10;Data Driven Testing is implemented" />
     <MESSAGE value="All assertions completed as Webtest includes" />
     <MESSAGE value="Updated logging" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated logging" />
+    <MESSAGE value="Take screenshot is added&#10;Constants class is added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Take screenshot is added&#10;Constants class is added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="487" y="121" key="#LoginTest.validLoginTest_ValidUserNameValidPassword" timestamp="1578761009397">
@@ -339,15 +337,20 @@
       <screen x="0" y="40" width="1536" height="824" />
     </state>
     <state x="499" y="203" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.40.1536.824@0.40.1536.824" timestamp="1578841825750" />
-    <state x="514" y="270" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1578860246808">
+    <state x="499" y="203" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1578941123568">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state x="514" y="270" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.40.1536.824@0.40.1536.824" timestamp="1578860246808" />
-    <state x="695" y="448" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.40.1920.1040/0.40.1920.1040@0.40.1920.1040" timestamp="1578655208622" />
-    <state x="402" y="40" key="CommitChangelistDialog2" timestamp="1578868214006">
+    <state x="499" y="203" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.40.1536.824@0.40.1536.824" timestamp="1578941123568" />
+    <state x="514" y="270" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1578961580564">
       <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state x="514" y="270" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.40.1536.824@0.40.1536.824" timestamp="1578961580564" />
+    <state x="695" y="448" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.40.1920.1040/0.40.1920.1040@0.40.1920.1040" timestamp="1578655208622" />
+    <state x="503" y="40" key="CommitChangelistDialog2" timestamp="1578918974967">
+      <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="402" y="40" key="CommitChangelistDialog2/0.40.1536.824@0.40.1536.824" timestamp="1578868214006" />
+    <state x="503" y="40" key="CommitChangelistDialog2/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1578918974967" />
     <state x="740" y="338" key="FileChooserDialogImpl" timestamp="1578900319247">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
@@ -377,16 +380,17 @@
       <screen x="0" y="40" width="1536" height="824" />
     </state>
     <state x="496" y="167" key="RollbackChangesDialog/0.40.1536.824@0.40.1536.824" timestamp="1578864782145" />
-    <state x="463" y="40" key="SettingsEditor" timestamp="1578900442504">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state x="370" y="40" key="SettingsEditor/0.40.1536.824@0.40.1536.824" timestamp="1578760735350" />
-    <state x="463" y="40" key="SettingsEditor/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1578900442504" />
-    <state x="463" y="206" key="SettingsEditor/1920.40.1920.1040/0.40.1920.1040@0.40.1920.1040" timestamp="1578661897302" />
-    <state x="361" y="189" key="Vcs.Push.Dialog.v2" timestamp="1578868218418">
+    <state x="370" y="40" key="SettingsEditor" timestamp="1578944066119">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
+    <state x="370" y="40" key="SettingsEditor/0.40.1536.824@0.40.1536.824" timestamp="1578944066119" />
+    <state x="463" y="40" key="SettingsEditor/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1578900442504" />
+    <state x="463" y="206" key="SettingsEditor/1920.40.1920.1040/0.40.1920.1040@0.40.1920.1040" timestamp="1578661897302" />
+    <state x="451" y="228" key="Vcs.Push.Dialog.v2" timestamp="1578918978619">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
     <state x="361" y="189" key="Vcs.Push.Dialog.v2/0.40.1536.824@0.40.1536.824" timestamp="1578868218418" />
+    <state x="451" y="228" key="Vcs.Push.Dialog.v2/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1578918978619" />
     <state x="668" y="390" key="com.intellij.ide.util.TipDialog" timestamp="1578900129093">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
@@ -403,9 +407,9 @@
     </state>
     <state x="493" y="214" width="538" height="537" key="run.anything.popup/0.40.1536.824@0.40.1536.824" timestamp="1578777212528" />
     <state x="616" y="260" width="672" height="677" key="run.anything.popup/1920.40.1920.1040/0.40.1920.1040@0.40.1920.1040" timestamp="1578656234322" />
-    <state x="431" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1578863697965">
+    <state x="431" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1578961594490">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state x="431" y="185" width="672" height="678" key="search.everywhere.popup/0.40.1536.824@0.40.1536.824" timestamp="1578863697965" />
+    <state x="431" y="185" width="672" height="678" key="search.everywhere.popup/0.40.1536.824@0.40.1536.824" timestamp="1578961594490" />
   </component>
 </project>

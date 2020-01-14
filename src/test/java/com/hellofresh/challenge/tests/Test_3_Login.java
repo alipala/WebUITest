@@ -11,15 +11,12 @@ import io.qameta.allure.Story;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class Test_2_Login extends BaseTest {
-
-    String expectedFullName = "Firstname Lastname";
+public class Test_3_Login extends BaseTest {
 
     @BeforeTest
     public void setUpTestData() {
-
         LogUtil.info("Setup Test Level Data");
-        ExcelUtil.setExcelFileSheet("LoginData");
+        ExcelUtil.setExcelFileSheet("SigninData");
     }
 
     @Test(priority = 0, description = "Invalid Login Test with Invalid Credentials")
@@ -33,7 +30,7 @@ public class Test_2_Login extends BaseTest {
         HomePage homePage = new HomePage(driver);
         homePage.gotoHomePage()
                 .goToLoginPage()
-                .login(ExcelUtil.getRowData(2))
+                .login(ExcelUtil.getRowData(1))
                 .verifyInvalidUserMessage(Constants.INVALID_USERNAME_MESSAGE);
 
     }
@@ -64,8 +61,8 @@ public class Test_2_Login extends BaseTest {
         HomePage homePage = new HomePage(driver);
         homePage.gotoHomePage()
                 .goToLoginPage()
-                .login(ExcelUtil.getRowData(1))
-                .verifyLoginUserName(expectedFullName)
+                .login(ExcelUtil.getRowData(0))
+                .verifyLoginUserName(ExcelUtil.getRowData(0))
                 .verifyInfoAccount(Constants.INFO_ACCOUNT_MESSAGE)
                 .verifyLogout();
 

@@ -1,16 +1,18 @@
 package com.hellofresh.challenge.pages;
 
+import com.hellofresh.challenge.utilities.FakeUserUtil;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.testng.Assert;
-
-import static com.hellofresh.challenge.utilities.ExcelUtil.setCellData;
 
 public class SignInPage extends BasePage {
+
+    FakeUserUtil user = new FakeUserUtil();
+
     public SignInPage(WebDriver driver) {
         super(driver);
     }
+
 
     //*********Web Elements*********
     By emailCreateBy = By.id("email_create");
@@ -31,7 +33,6 @@ public class SignInPage extends BasePage {
     By otherBy = By.id("other");
     By phoneBy = By.id("phone");
     By phoneMobileBy = By.id("phone_mobile");
-    By aliasBy = By.id("alias");
     By submitAccountBy = By.id("submitAccount");
 
     //*********Assertions Web Elements*********
@@ -42,58 +43,33 @@ public class SignInPage extends BasePage {
 
 
     /**
-     * @param emailCreate
-     * @param customerFirstName
-     * @param customerLastName
-     * @param password
-     * @param day
-     * @param month
-     * @param year
-     * @param company
-     * @param address1
-     * @param address2
-     * @param city
-     * @param state
-     * @param postcode
-     * @param other
-     * @param phone
-     * @param mobile
-     * @param alias
+     * @param row
      * @return
      */
-    public SignInPage signIn(String emailCreate, String customerFirstName, String customerLastName, String password, String day, String month, String year,
-                             String company, String address1, String address2, String city, String state, String postcode, String other, String phone, String mobile, String alias){
-        writeText(emailCreateBy, emailCreate);
+    public SignInPage signIn(XSSFRow row) {
+
+        writeText(emailCreateBy, row.getCell(0).toString());
         click(submitCreateBy);
         click(genderBy);
-        writeText(customerFirstNameBy, customerFirstName);
-        writeText(customerLastNameBy, customerLastName);
-        writeText(passwordBy, password);
-        select(daysBy, day);
-        select(monthsBy, month);
-        select(yearsBy, year);
-        writeText(companyBy, company);
-        writeText(address1By, address1);
-        writeText(address2By, address2);
-        writeText(cityBy, city);
-        select(stateBy, state);
-        writeText(postcodeBy, postcode);
-        writeText(otherBy, other);
-        writeText(phoneBy, phone);
-        writeText(phoneMobileBy, mobile);
-        writeText(aliasBy, alias);
+        writeText(customerFirstNameBy, row.getCell(1).toString());
+        writeText(customerLastNameBy, row.getCell(2).toString());
+        writeText(passwordBy, row.getCell(3).toString());
+        select(daysBy, row.getCell(4).toString());
+        select(monthsBy, row.getCell(5).toString());
+        select(yearsBy, row.getCell(6).toString());
+        writeText(companyBy, row.getCell(7).toString());
+        writeText(address1By, row.getCell(8).toString());
+        writeText(address2By, row.getCell(9).toString());
+        writeText(cityBy, row.getCell(10).toString());
+        select(stateBy, "6");
+        writeText(postcodeBy, row.getCell(11).toString());
+        writeText(phoneBy, row.getCell(12).toString());
+        writeText(phoneMobileBy, row.getCell(13).toString());
         click(submitAccountBy);
 
         return this;
     }
 
-    /**
-     * @return
-     */
-    public SignInPage addUsertoTestData(String value, int RowNum, int ColNum) throws Exception {
-        setCellData(value, RowNum, ColNum);
-        return this;
-    }
 
     /**
      * @param expectedText
@@ -105,12 +81,12 @@ public class SignInPage extends BasePage {
     }
 
     /**
-     * @param expectedName
-     * @param expectedSurname
+     * @param row
      * @return
      */
-    public SignInPage verifyFirstNameLastName(String expectedName, String expectedSurname) {
-        assertEquals(accountBy, expectedName + " " + expectedSurname);
+    public SignInPage verifyFirstNameLastName(XSSFRow row) {
+
+        assertEquals(accountBy, row.getCell(1).toString() + " " + row.getCell(2).toString());
         return this;
     }
 

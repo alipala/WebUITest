@@ -4,7 +4,6 @@ import io.qameta.allure.Step;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import sun.rmi.runtime.Log;
 
 public class LoginPage extends BasePage {
     public LoginPage(WebDriver driver) {
@@ -31,19 +30,19 @@ public class LoginPage extends BasePage {
      */
     @Step("Login Step with username: {0}, password: {1}, for method: {method}")
     public LoginPage login(XSSFRow row) {
-        writeText(emailBy, row.getCell(1).toString());
-        writeText(passwordBy, row.getCell(2).toString());
+        writeText(emailBy, row.getCell(0).toString());
+        writeText(passwordBy, row.getCell(3).toString());
         click(submitButtonBy);
         return this;
     }
 
     /**
      * Verify Valid Username Condition
-     * @param expectedText
+     * @param row
      * @return
      */
-    public LoginPage verifyLoginUserName (String expectedText) {
-        assertEquals(UsernameBy, expectedText);
+    public LoginPage verifyLoginUserName (XSSFRow row) {
+        assertEquals(UsernameBy, row.getCell(1).toString() + " " + row.getCell(2).toString());
         return this;
     }
 
