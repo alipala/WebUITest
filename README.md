@@ -37,13 +37,15 @@ mvn -Dtest=Test_2_SignIn clean test
 mvn -Dtest=Test_2_SignIn#validSignInTest clean test
 ```
 
-### Tests
-
-Explain what these tests test and why
-
+### Project Structure
 ```
-Give an example
+- Constants: Constant values are locate in this class like expected messages and some login credentials
+- Listeners: Allure Report Listener to save the screenshot once a test is failed
+- Pages: Consists of methods, variables that corresponding Pages
+- Test: Functional UI tests in order to verify the functionality of the product
+- Utilities: Helper classes to be used for mant times in the test
 ```
+
 
 ## Built With
 
@@ -57,9 +59,20 @@ Give an example
 * [Jenkins](https://jenkins.io/) - It is an open source automation server to build the job periodically with required plugins
 
 
+## Methods
+``` 
+1. Behaviour Driven Development
+2. Data Driven Development
+``` 
+
+## Design Patterns
+``` Design Patterns
+1. Page Object Model
+``` 
+
 ## Authors
 
-* **Ali Pala** - *Initial work* - [Ali Pala](https://github.com/alipala)
+* **Ali Pala** - *See the all repositories* - [Ali Pala](https://github.com/alipala)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
@@ -69,5 +82,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Please have a look how to migrate Jenkins job to your local. [Jenkins Job migration] (https://staxmanade.com/2015/01/how-to-migrate-a-jenkins-job-to-new-jenkins-server/)
+* [Jenkins Job migration](https://staxmanade.com/2015/01/how-to-migrate-a-jenkins-job-to-new-jenkins-server/) - Please have a look how to migrate Jenkins job to your local. 
 
