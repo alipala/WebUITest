@@ -30,7 +30,7 @@ public class Test_3_Login extends BaseTest {
         HomePage homePage = new HomePage(driver);
         homePage.gotoHomePage()
                 .goToLoginPage()
-                .login(ExcelUtil.getRowData(1))
+                .login(Constants.INVALID_USER_NAME, Constants.INVALID_PASSWORD)
                 .verifyInvalidUserMessage(Constants.INVALID_USERNAME_MESSAGE);
 
     }
@@ -46,7 +46,7 @@ public class Test_3_Login extends BaseTest {
         HomePage homePage = new HomePage(driver);
         homePage.gotoHomePage()
                 .goToLoginPage()
-                .login(ExcelUtil.getRowData(3))
+                .login(" ", " ")
                 .verifyEmptyUserMessage(Constants.EMPTY_USERNAME_MESSAGE);
     }
 

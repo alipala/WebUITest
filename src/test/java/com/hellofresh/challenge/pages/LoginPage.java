@@ -15,7 +15,7 @@ public class LoginPage extends BasePage {
     By passwordBy = By.id("passwd");
     By submitButtonBy = By.id("SubmitLogin");
     By UsernameBy = By.cssSelector(".account > span:nth-child(1)");
-    By errorMessageInvalidUsernameBy = By.xpath("//li[contains(text(),'Authentication failed.')]");
+    By errorMessageInvalidUsernameBy = By.xpath("//li[contains(text(),'Invalid email address.')]");
     By errorMessageEmptyUsernameBy = By.xpath("//li[contains(text(),'An email address required.')]");
 
     //*********Assertions Web Elements*********
@@ -32,6 +32,17 @@ public class LoginPage extends BasePage {
     public LoginPage login(XSSFRow row) {
         writeText(emailBy, row.getCell(0).toString());
         writeText(passwordBy, row.getCell(3).toString());
+        click(submitButtonBy);
+        return this;
+    }
+
+    /**
+     * @return
+     */
+    @Step("Login Step with username: {0}, password: {1}, for method: {method}")
+    public LoginPage login(String username, String password) {
+        writeText(emailBy, username);
+        writeText(passwordBy, password);
         click(submitButtonBy);
         return this;
     }

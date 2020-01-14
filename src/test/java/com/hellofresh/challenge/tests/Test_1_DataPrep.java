@@ -10,7 +10,7 @@ import io.qameta.allure.Story;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class Test_1_DataPrep extends BaseTest{
+public class Test_1_DataPrep {
 
     @BeforeTest
     public void setUpTestData() throws Exception {

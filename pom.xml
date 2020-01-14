@@ -78,6 +78,7 @@
         <artifactId>maven-surefire-plugin</artifactId>
         <version>2.20</version>
         <configuration>
+          <runOrder>alphabetical</runOrder>
           <suiteXmlFiles>
             <suiteXmlFile>TestNG.xml</suiteXmlFile>
           </suiteXmlFiles>
