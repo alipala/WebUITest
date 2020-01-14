@@ -6,35 +6,30 @@ The project is about functional UI test automation project includes tech stack: 
 
 The project can be cloned from GitHub. Since it is a maven project, all the dependencies will be imported easily on your local machine for the enhancing the development and test. See deployment for notes on how to deploy the project on a live system.
 
-### Prerequisites
-
-What things you need to install the software and how to install them
+### Prerequisites and Installation
 
 ```
-Give examples
+Java installation should be done and added to the PATH. Beside of this MAVEN_HOME should be added to the path. 
+Also, Java IDE. I have used IntelliJ Community Edition 2019, but you can choose an IDE whatever you want. For example, Eclipse.
+Please note that, after cloning the repository there will be a Jenkins_Configuration.rar file located in the root. This file includes all the required configuration, and you should import this file to create a job the same as me. 
+Note: JDK version: jdk1.8.0_211
 ```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+Beside of the running test on Jenkins, you can exeute the tests as TestNG or a Maven. 
+
+* TestNG: Goto Edit Configuration and set the project as TestNG project.
+* Maven: 
+Goto project root folder and for running all tests
+```
+mvn clean test
+```
+Goto project root folder and for running all tests in a class
+```
+mvn -Dtest=Test_2_SignIn#validSignInTest clean test
+```
+
 
 ### Break down into end to end tests
 
@@ -72,7 +67,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Ali Pala** - *Initial work* - [PurpleBooth](https://github.com/alipala)
+* **Ali Pala** - *Initial work* - [Ali Pala](https://github.com/alipala)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
