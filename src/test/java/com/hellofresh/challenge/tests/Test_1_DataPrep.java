@@ -18,18 +18,18 @@ public class Test_1_DataPrep {
 
     @BeforeTest
     public void setUpTestData() throws Exception {
-        LogUtil.info("Setup Test Level Data");
+        LogUtil.info("Setup Test Data Test Started");
         ExcelUtil.setExcelFileSheet("SigninData");
+        LogUtil.info("Test Level Prepared");
     }
 
-    @Test(priority = 0, description = "Valid Sign In Test")
+    @Test(priority = 0, description = "Test Data Preparation Test")
     @Severity(SeverityLevel.CRITICAL)
-    @Description("Test Description: Sign In Scenario")
-    @Story("Sign In Test")
+    @Description("Test Description: Test Data Preparation")
+    @Story("Test Data Preparation")
     public void validSignInTest() throws Exception {
         FakeUserUtil user = new FakeUserUtil();
         user.addUsersTestData();
-
     }
 
 }

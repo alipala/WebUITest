@@ -1,8 +1,0 @@
-2020-01-14 22:39:36,647 [main] ERROR (LogUtil.java:39) - Test is failed
-2020-01-14 22:39:36,652 [main] INFO  (LogUtil.java:29) - Screenshot captured for test case:invalidSignInTest_WithExistingAccount
-2020-01-14 22:39:37,009 [main] ERROR (LogUtil.java:39) - Test is failed
-2020-01-14 22:39:37,010 [main] INFO  (LogUtil.java:29) - Screenshot captured for test case:invalidSignInTest_WithExistingAccount
-2020-01-14 22:39:59,659 [main] ERROR (LogUtil.java:39) - Test is failed
-2020-01-14 22:39:59,659 [main] INFO  (LogUtil.java:29) - Screenshot captured for test case:validSignInTest
-2020-01-14 22:39:59,730 [main] ERROR (LogUtil.java:39) - Test is failed
-2020-01-14 22:39:59,731 [main] INFO  (LogUtil.java:29) - Screenshot captured for test case:validSignInTest

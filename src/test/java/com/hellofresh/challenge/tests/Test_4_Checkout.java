@@ -32,6 +32,7 @@ public class Test_4_Checkout extends BaseTest {
     @Description("Test Description: Checkout Scenario")
     @Story("Checkout Test")
     public void validCheckoutTest() throws Exception {
+        LogUtil.info("Valid Checkout Test Started");
         HomePage homePage = new HomePage(driver);
         CheckoutPage checkoutPage = new CheckoutPage(driver);
 

@@ -28,8 +28,7 @@ public class Test_3_Login extends BaseTest {
     @Description("Test Description: Forget Password Scenario")
     @Story("Login Test")
     public void forgetPasswordTest() throws Exception {
-        LogUtil.info("Forget Password Test");
-
+        LogUtil.info("Forget Password Test is Started");
         HomePage homePage = new HomePage(driver);
         homePage.gotoHomePage()
                 .goToLoginPage()
@@ -42,8 +41,7 @@ public class Test_3_Login extends BaseTest {
     @Description("Test Description: Login Scenario")
     @Story("Login Test")
     public void invalidLoginTest_InvalidUserNameInvalidPassword() throws Exception {
-        LogUtil.info("Invalid Login Test with Invalid Credentials");
-
+        LogUtil.info("Invalid Login Test with Invalid Credentials Test is Started");
         HomePage homePage = new HomePage(driver);
         homePage.gotoHomePage()
                 .goToLoginPage()
@@ -57,8 +55,7 @@ public class Test_3_Login extends BaseTest {
     @Description("Test Description: Login Scenario")
     @Story("Login Test")
     public void invalidLoginTest_EmptyUserNameEmptyPassword() throws Exception {
-        LogUtil.info("Invalid Login Test with Empty Credentials");
-
+        LogUtil.info("Invalid Login Test with Empty Credentials Test is Started");
         HomePage homePage = new HomePage(driver);
         homePage.gotoHomePage()
                 .goToLoginPage()
@@ -71,8 +68,7 @@ public class Test_3_Login extends BaseTest {
     @Description("Test Description: Login Scenario")
     @Story("Login Test")
     public void validLoginTest_ValidUserNameValidPassword() throws Exception {
-        LogUtil.info("Valid Login Test");
-
+        LogUtil.info("Valid Login Test is Started");
         HomePage homePage = new HomePage(driver);
         homePage.gotoHomePage()
                 .goToLoginPage()

@@ -35,6 +35,7 @@ public class Test_2_SignIn extends BaseTest {
     @Description("Test Description: Sign In Scenario")
     @Story("Sign In Test")
     public void validSignInTest() throws Exception {
+        LogUtil.info("Valid Sign In Test Started");
         HomePage homePage = new HomePage(driver);
         SignInPage signInPage = new SignInPage(driver);
 
@@ -48,11 +49,12 @@ public class Test_2_SignIn extends BaseTest {
                 .verifyLogout();
     }
 
-    @Test(priority = 0, description = "Valid Sign In Test")
+    @Test(priority = 0, description = "Invalid Sign In Test")
     @Severity(SeverityLevel.CRITICAL)
     @Description("Test Description: Sign In Scenario")
     @Story("Sign In Test")
     public void invalidSignInTest_WithExistingAccount() throws Exception {
+        LogUtil.info("Invalid Signin with Existing Account Test Started");
         HomePage homePage = new HomePage(driver);
         SignInPage signInPage = new SignInPage(driver);
 
