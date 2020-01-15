@@ -32,15 +32,21 @@ Please read this blog post [Build a maven project to run test](https://medium.co
 
 - Goto project root folder and for running all tests
 
+```
 mvn clean test
+```
 
 - for running all tests in a class
 
-mvn -Dtest=Test\_2\_SignIn clean test
+```
+mvn -Dtest=BookingTest clean test
+```
 
 - for a running single test
 
-mvn -Dtest=Test\_2\_SignIn#validSignInTest clean test
+```
+mvn -Dtest=BookingTest#getAllBookings clean test
+```
 
 ### **Project Structure**
 
