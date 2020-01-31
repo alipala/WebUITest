@@ -39,13 +39,13 @@ mvn clean test
 - for running all tests in a class
 
 ```
-mvn -Dtest=BookingTest clean test
+mvn -DsuiteXmlFile=BookingTest clean test
 ```
 
 - for a running single test
 
 ```
-mvn -Dtest=BookingTest#getAllBookings clean test
+mvn -DsuiteXmlFile=testng.xml #getAllBookings clean test
 ```
 
 ### **Project Structure**
@@ -62,10 +62,10 @@ mvn -Dtest=BookingTest#getAllBookings clean test
 
 ## **Built With**
 
-- [JAVA](https://docs.oracle.com/javase/8/docs/technotes/guides/language/index.html) - Programming Language
+- [Java](https://docs.oracle.com/javase/8/docs/technotes/guides/language/index.html) - Programming Language
 - [TestNG](https://testng.org/doc/) - The testing framework
 - [Selenium](https://selenium.dev/) - Used to generate browser automation tests
-- [Maven](https://maven.apache.org/) - It is a build automation tool used for Java projects
+- [Maven](https://maven.apache.org/) - It is a build automation tool used mainly for Java projects
 - [JavaFaker](http://dius.github.io/java-faker/) - Used to generate fake user data to be used in Signin and Login
 - [Allure Report](http://allure.qatools.ru/) - Used to create test execution reports
 - [Log4J](https://logging.apache.org/log4j/2.x/) - For inserting log statements into code
