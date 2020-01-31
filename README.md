@@ -1,6 +1,6 @@
 ## WebUITest
 
-The project is about functional UI test automation project includes tech stack: Java, TestNG, Allure Report, Maven, Jenkins, Log4J, IntelliJ.
+The project is about functional UI test includes: Java, TestNG, Allure Report, Maven, Jenkins, Log4J, IntelliJ.
 
 [Tested Website](http://automationpractice.com/index.php)
 
