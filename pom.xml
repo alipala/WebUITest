@@ -80,7 +80,7 @@
         <configuration>
           <runOrder>alphabetical</runOrder>
           <suiteXmlFiles>
-            <suiteXmlFile>TestNG.xml</suiteXmlFile>
+            <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
